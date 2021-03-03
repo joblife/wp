@@ -1,0 +1,39 @@
+.ld-breadcrumbs .ratings-after-title {
+    display: none;
+}
+.rating-container .caption {
+    font-size: initial;
+}
+.rating-container.is-display-only .rating-stars.is-clickable {
+	cursor: pointer;
+}
+.ratings-after-title .rating-container {
+    display: inline;
+}
+.ratings-after-title .rating-container.rating-sm + span {
+    font-size: 24px;
+}
+.ratings-after-title .rating-container.rating-xl + span {
+    font-size: 48px;
+}
+.ratings-after-title .rating-container.rating-lg + span {
+    font-size: 40px;
+}
+.ratings-after-title .rating-container.rating-md + span {
+    font-size: 32px;
+}
+.ratings-after-title .rating-container.rating-xs + span {
+    font-size: 16px;
+}
+.rrf-helper-text {
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+}
+
+/*BuddyBoss CSS Fix*/
+/*body #page .bb-course-title a {
+    max-height: none;
+}*/
+

@@ -1,0 +1,1933 @@
+/*extra style to overide*/
+.media-router > a{
+	padding: 8px 10px 27px;
+}
+.eat-body-class-wrap .form-field input[type="text"], .eat-body-class-wrap .form-field input[type="password"], .eat-body-class-wrap .form-field input[type="email"], .eat-body-class-wrap .form-field input[type="number"], .eat-body-class-wrap .form-field input[type="search"], .eat-body-class-wrap .form-field input[type="tel"], .eat-body-class-wrap .form-field input[type="url"], .eat-body-class-wrap .form-field textarea, .eat-body-class-wrap .search-form input[type="search"]{
+	height: 38px !important;
+}
+
+#wp-admin-bar-root-default li.menupop div.ab-sub-wrapper{
+	min-width: 200px;
+	visibility: hidden;
+	opacity: 0;
+	transition: ease-in 0.3s;
+}
+#wp-admin-bar-root-default li.menupop:hover div.ab-sub-wrapper{
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+}
+.eat-image-preview img{
+	max-width: 300px;
+	margin: -15px auto 30px;
+	display: block;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-wordpress-default-text-editor{
+	width: 100%;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap input{
+	border: solid 1px #ccc;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+	padding: 10px;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu a{
+	padding: 10px 20px !important;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li{
+	padding: 16px 30px;
+	font-size: 13px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-tab-content-header-title{
+	font-size: 24px;
+	padding-bottom: 4px;
+}
+.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo span.eat-headerlogo{
+	font-size: 30px;
+	font-weight: 600;
+}
+.eat-menu-manager-wrap .eat-submit-button{
+	width: 100%;
+	text-align: center;
+}
+.auto-fold ul#adminmenu li:hover a.wp-has-current-submenu::after{
+	display: none;
+}
+.folded #adminmenu a.menu-top {
+    height: 45px;
+}
+.community-events-form .regular-text{
+	height: 40px;
+}
+.community-events-form label{
+	height: 40px;
+	line-height: 40px;
+}
+#dashboard-widgets .community-events-cancel.button-link{
+	height: 40px;
+	line-height: 35px;
+}
+.eat-admin-main-wrapper{
+	margin-top: 20px;
+}
+
+#adminmenu a.menu-top:focus + .wp-submenu, .js #adminmenu .opensub .wp-submenu, .js #adminmenu .sub-open, .no-js li.wp-has-submenu:hover .wp-submenu{
+	top: 0px !important;
+}
+
+
+/*style ends here*/
+
+@media only screen and (max-width: 1200px){
+	#collapse-menu{
+		display: none;
+	}
+	
+}
+@media only screen and (max-width: 960px) and (min-width: 768px){
+	#wp-admin-bar-my-account.with-avatar > .ab-item{
+		visibility: collapse;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item img{
+		visibility: visible;
+	}
+	.auto-fold #adminmenu{
+/* 		width: 200px !important; */
+	}
+	.auto-fold #wpcontent{
+		margin-left: 50px;
+	}
+	.auto-fold #wpadminbar{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		left: 0;
+	}
+	.auto-fold #wpwrap{
+		margin-top: 30px;
+	}
+	.auto-fold #adminmenuwrap{
+		width: 50px;
+	}
+/*	.auto-fold #adminmenuback{
+		width: 50px;
+	}*/
+	.auto-fold #adminmenu li.menu-top{
+		width: 180px; /*changed*/
+	}
+	.auto-fold #adminmenu .wp-submenu{
+		left: -1px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2.auto-fold div.wp-menu-image::before{
+		padding: 3px 0;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.auto-fold .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-5.auto-fold .eat-admin-logo{
+		background: transparent;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.auto-fold div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-5.auto-fold div.wp-menu-image::before{
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2.auto-fold #wpwrap{
+		margin-top: 50px;
+	}
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+		font-size: 12px;
+	}
+	.eat-dashboard-temp-15.auto-fold #wpwrap {
+   		margin-top: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wp-admin-bar-top-secondary .menupop .ab-sub-wrapper{
+		background: rgb(58, 171, 131);
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuwrap .eat-admin-logo{
+		padding: 30px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15.auto-fold #adminmenuwrap .eat-admin-image{
+		width: 50px;
+		padding: 10px 0px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#adminmenu .wp-submenu{
+		margin-top: 0px !important;
+		left: 0px !important;
+		top: 0px !important;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item{
+		visibility: collapse !important;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item img{
+		visibility: visible !important;
+	}
+	.eat-body-class-wrap #wpcontent {
+		margin-left: 0px;
+	}
+	.eat-dashboard-temp-1 #wpbody{
+		padding: 0px 0px 10px 10px;
+	}
+	.folded .wp-menu-name{
+		display: none;
+	}
+	.folded #adminmenu a.menu-top:focus + .wp-submenu{
+		left: 0px !important;
+	}
+	.auto-fold #adminmenu li a {
+		font-size: 14px;
+	}
+	.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo span.eat-headerlogo{
+		font-size: 22px !important;
+	}
+	.eat-social-btns{
+		text-align: right;
+	}
+	.eat-admin-main-wrapper{
+		margin-right: 10px;
+	}
+	.eat-image-preview img{
+		max-width: 150px;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap > label{
+		font-size: 12px;
+		margin-bottom: 5px;
+	}
+	.wp-core-ui .quicktags-toolbar input.button.button-small{
+		width: auto;
+		padding: 0px 10px 0px;
+		font-size: 11px;
+		height: auto;
+	}
+	.mce-toolbar .mce-btn i{
+		font-size: 15px;
+	}
+	#wpadminbar .quicklinks ul{
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+		width: 100%;
+		margin: 1px 0px;
+		padding: 10px;
+		height: 48px;
+		font-size: 12px;
+	}
+	div.wp-menu-image::before{
+		padding: 3px 0px;
+	}
+	#adminmenu a.menu-top{
+		line-height: 10px;
+	}
+	#adminmenuwrap .eat-admin-logo{
+		max-width: 50px;
+		padding: 12px 0px 0px 7px;
+		border: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu .wp-menu-name, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu .wp-menu-name,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu .wp-menu-name{
+		position: static;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu li.menu-top{
+		min-height: 40px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu li a,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li a{
+		min-height: 40px;
+		line-height: 15px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu li a.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li a.menu-top{
+		height: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu .update-plugins,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu .update-plugins{
+		margin-top: -5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu ul.wp-submenu li > a,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu ul.wp-submenu li > a{
+		padding: 18px 20px 10px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu div.wp-menu-image::before,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu div.wp-menu-image::before{
+		padding: 5px 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuwrap .eat-admin-logo, 
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenuwrap .eat-admin-logo{
+	    max-width: 50px;
+	    padding: 17px 4px 8px 5px;
+	    border: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpadminbar ul#wp-admin-bar-root-default > li,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar ul#wp-admin-bar-root-default > li{
+		margin-top: -8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 0px;
+		left: 6px;
+		margin-top: 0px;
+	}
+	#wpadminbar .ab-top-menu, #wpadminbar .ab-top-secondary{
+		margin-top: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon::before{
+		color: #000;
+		top: 3px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpadminbar,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar{
+		height: 50px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar{
+		height: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpadminbar #wp-admin-bar-my-account > .ab-item,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar #wp-admin-bar-my-account > .ab-item{
+		height: 43px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-5 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-6 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-7 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpadminbar .menupop .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar .menupop .ab-sub-wrapper{
+		margin-top: -5px;
+	}
+	#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item{
+		font-size: 13px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-5.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon::before{
+
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpadminbar{
+		min-height: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wp-admin-bar-top-secondary .menupop .ab-sub-wrapper{
+		background: rgb(58, 171, 131);
+	}
+	.eat-dashboard-temp-15.eat-admin-bar-fixed #wp-admin-bar-root-default{
+		width: auto;
+		transition: none;
+	}
+	.eat-dashboard-temp-15.eat-admin-bar-fixed #wpadminbar .ab-top-menu{
+		margin-top: 8px !important;
+	}
+	.eat-dashboard-temp-15 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a{
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuwrap{
+		top: 30px !important;
+	}
+	.eat-dashboard-temp-15.eat-admin-bar-fixed #wp-admin-bar-root-default.fixedheader{
+		width: 100%;
+		margin-top: -8px !important;
+		padding-top: 14px;
+	}
+	.eat-dashboard-temp-15 .wp-responsive-open #wpbody {
+		right: -251px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu .wp-submenu{
+		left: 0px;
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li:focus .wp-submenu{
+		display: block !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu div.wp-menu-name{
+		padding: 5px 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 .eat-admin-logo{
+		display: none;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpcontent .wrap{
+		margin-right: 10px;
+	}
+	.eat-dashboard-temp-15 #wpadminbar #wp-admin-bar-top-secondary{
+		margin-top: 0px !important;
+	}
+	.eat-dashboard-temp-15 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 9px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenuwrap .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenuwrap .eat-admin-logo{
+		max-width: 100px;
+		width: 80px;
+		margin: 25px auto;
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenuwrap .eat-admin-logo{
+		max-width: 100px;
+		width: 80px;
+		margin: 15px auto;
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .wp-submenu {
+    width: 200px;
+}
+
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu .wp-has-submenu .wp-submenu a{
+		padding-left: 40px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.auto-fold #adminmenu,
+	
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu{
+		top: 60px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2.auto-fold #adminmenu{
+		top: 65px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.auto-fold #adminmenu a.menu-top{
+		height: 45px;
+	}
+	.auto-fold #adminmenu .wp-submenu{
+		position: relative;
+		top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-submenu li.current a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu li.current a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu.opensub .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu a.wp-has-current-submenu:focus + .wp-submenu a, 
+	.eat-body-class-wrap.eat-dashboard-temp-1.folded #adminmenu .wp-has-current-submenu .wp-submenu a{
+		padding: 12px 50px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu .wp-has-current-submenu .wp-submenu{
+		min-width: 200px;
+	}
+	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a{
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu  .wp-submenu,
+	.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenu .wp-has-current-submenu .wp-submenu{
+		background: #0289ff !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2.eat-admin-bar-fixed #wpwrap{
+		margin-top: 46px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li.menu-top ul.wp-submenu li > a, 
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li.opensub ul.wp-submenu li > a{
+		padding: 12px 45px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu li > a.menu-top:focus{
+		background: rgba(0,0,0,0.2);
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item{
+		visibility: collapse;
+	}
+	#wp-admin-bar-my-account.with-avatar > .ab-item img{
+		visibility: visible;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .quicklinks > ul > li > a {
+	    padding: 6px 5px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 8px;
+		left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #wpadminbar #wp-admin-bar-my-account > .ab-item{
+		height: 38px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3.auto-fold #adminmenu{
+		/* top: -18px; */
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu .wp-submenu{
+		padding: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu li.menu-top ul.wp-submenu li > a{
+		padding: 12px 45px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-3 #adminmenuback{
+		box-shadow: none;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu div.wp-menu-name{
+		padding-left: 0px;
+		margin-left: 10px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .wp-has-current-submenu .wp-submenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .opensub .wp-submenu{
+		padding: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu li.wp-has-current-submenu ul.wp-submenu li > a{
+		padding-left: 22px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4.eat-admin-bar-fixed #wpwrap{
+		margin-top: 46px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .quicklinks > ul > li > a{
+		padding: 9px 5px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 8px;
+		left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu .selected .wp-submenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu .wp-menu-open .wp-submenu{
+		position: relative !important;
+		top: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-25 #wpadminbar .quicklinks > ul > li > a {
+	    padding: 2px 8px !important;
+	    color: #FFF;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #wpadminbar .quicklinks > ul > li > a {
+	    padding: 2px 8px !important;
+	    color: #FFF;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item{
+		padding: 3px 15px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-25 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		margin-top: -2px;
+		margin-right: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		margin-top: -2px;
+		margin-right: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-25 #adminmenuwrap .eat-admin-logo{
+		max-width: 100%;
+		padding: 20px 10px;
+		display: block;
+		border: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-25.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-25 #adminmenu a{
+		padding: 15px 10px 40px 25px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-25 div.wp-menu-image::before {
+	    padding-top: 3px;
+	    padding-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 div.wp-menu-image::before {
+	    padding: 3px 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu a.menu-top {
+	    padding: 15px 0px 30px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-submenu li.current a, .eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-submenu > li a, .eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-has-current-submenu .wp-submenu li a {
+	    padding: 10px 15px 10px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-submenu::before,
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-has-current-submenu.opensub .wp-submenu li a::before, 
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-has-submenu .wp-submenu li a::before,
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-has-current-submenu.opensub .wp-submenu li a::after, 
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-has-submenu .wp-submenu li a::after,
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu li.menu-top::before,
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu li.menu-top::after{
+		display: none !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu .wp-submenu{
+		padding: 0px 0px 0px 20px !important;
+		margin-top: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenuwrap .eat-admin-logo{
+		padding: 15px 0px;
+		width: 100%;
+		max-width: 100%;
+	}
+	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon::before{
+		color: #FFF;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #wpadminbar .quicklinks > ul > li > a {
+	    padding: 9px 5px !important;
+	    color: #FFF;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #wpadminbar .menupop .ab-sub-wrapper{
+		width: 100%;
+		left: -100px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenumain div.eat-admin-logo{
+		width: 200px;
+		padding: 0;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenumain div.eat-admin-image img{
+		width: 100%;
+		height: 30px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #wpadminbar{
+		left: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenu a.menu-top{
+		padding: 20px 15px 35px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenu .opensub .wp-submenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenu .wp-menu-open .wp-submenu{
+		padding: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenu .wp-submenu > li a{
+		padding: 10px 0px 10px 55px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenu div.wp-menu-name {
+	    padding: 1px 2px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenu li.menu-top div.wp-menu-image::before{
+		margin-top: -5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenu{
+		padding-top: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-5 #wpadminbar .quicklinks > ul > li > a{
+		padding: 8px 5px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-5 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 8px;
+		left: 11px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #wpadminbar .quicklinks > ul > li > a{
+		padding: 12px 8px 6px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenuback, 
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenuwrap{
+		background: #FFF;
+		overflow: visible;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu{
+		padding-top: 5px;
+		margin-top: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #wp-admin-bar-my-account{
+		height: 170px;
+		position: relative;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #wp-admin-bar-my-account.with-avatar > .ab-item{
+		visibility: visible !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #wp-admin-bar-user-actions a.ab-item{
+		padding-left: 70px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 li#wp-admin-bar-user-info a span.display-name::before,
+	.eat-body-class-wrap.eat-dashboard-temp-22 li#wp-admin-bar-edit-profile a.ab-item::before,
+	.eat-body-class-wrap.eat-dashboard-temp-22 li#wp-admin-bar-logout a.ab-item::before{
+		left: 45px;
+		top: 1px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu a.menu-top{
+		padding: 20px 15px 30px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu .wp-submenu{
+		padding-left: 30px !important;
+		margin-top: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22.auto-fold #adminmenu li.menu-top .wp-submenu > li > a{
+		padding: 10px 20px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu div.wp-menu-name{
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu li.menu-top div.wp-menu-image::before{
+		margin-left: -5px;
+		margin-top: -6px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21 #wpadminbar .quicklinks > ul > li > a{
+		padding: 12px 5px 7px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21 #adminmenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-21 #adminmenuback, 
+	.eat-body-class-wrap.eat-dashboard-temp-21 #adminmenuwrap{
+		overflow: visible;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21.auto-fold #adminmenu a.menu-top{
+		height: 55px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21 #adminmenu li.menu-top,
+	.eat-body-class-wrap.eat-dashboard-temp-21 #adminmenu li.menu-top:hover{
+		border: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21.auto-fold #adminmenu .wp-has-current-submenu a.menu-top:focus + .wp-submenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-21.auto-fold #adminmenu a.menu-top:focus + .wp-submenu{
+		left: -1px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21.eat-admin-bar-fixed #wpwrap{
+		margin-top: 50px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-22 #wpcontent,
+	.eat-body-class-wrap.eat-dashboard-temp-21 #wpcontent{
+		margin-top: 50px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21.eat-admin-bar-fixed #wpwrap.wp-responsive-open,
+	.eat-body-class-wrap.eat-dashboard-temp-20.eat-admin-bar-fixed #wpwrap.wp-responsive-open{
+		margin-top: 20px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-21.eat-admin-bar-fixed #wpwrap.wp-responsive-open #wpcontent{
+		margin-top: 30px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-20 #wpadminbar .quicklinks > ul > li > a {
+	    padding: 11px 7px 8px !important;
+	    color: #868e96;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-20 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+	    margin-top: 5px;
+	    margin-right: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-20 #adminmenu a.menu-top {
+	    padding: 18px 15px 43px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-20.auto-fold #adminmenu .wp-has-current-submenu a.menu-top:focus + .wp-submenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-20.auto-fold #adminmenu a.menu-top:focus + .wp-submenu{
+		left: -1px;
+		padding: 0px 30px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-20.auto-fold #adminmenu li.wp-has-submenu .wp-submenu,
+	.eat-body-class-wrap.eat-dashboard-temp-20.auto-fold #adminmenu li.wp-has-current-submenu .wp-submenu{
+		padding: 0px 30px !important;
+		left: -1px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-20.auto-fold #adminmenu li.menu-top .wp-submenu > li > a{
+		padding: 10px 10px 10px 25px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #wpadminbar .quicklinks > ul > li > a{
+		padding: 2px 8px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19.eat-admin-bar-fixed #wpwrap{
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #wp-admin-bar-user-actions{
+		bottom: 165px;
+		left: 47%;
+		text-align: left;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #wp-admin-bar-user-actions li a img{
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19.auto-fold #adminmenuback{
+		z-index: 0;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenu li > a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenu .wp-has-submenu a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenu li.opensub > a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenu a.menu-top {
+	    padding: 20px 15px 40px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenuwrap div.eat-admin-logo{
+		width: 218px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenuback, 
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenuwrap, 
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenu .wp-submenu{
+		width: 218px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenu {
+	    background: #FFF !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 .eat-admin-logo,
+	.eat-body-class-wrap.eat-dashboard-temp-18 .eat-admin-logo{
+		max-width: 100% !important;
+		padding: 20px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-18 #wpadminbar .quicklinks > ul > li > a{
+		padding: 3px 8px 1px !important;
+	}
+	#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+	    margin-top: -2px;
+	    margin-right: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-18.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-18 #adminmenu a.menu-top {
+	    padding: 17px 15px 42px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-18 #adminmenu .wp-submenu{
+		padding: 0px !important;
+		margin-top: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-18 #adminmenu{
+		background: #C34455;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-17 #adminmenu a.menu-top{
+		padding: 10px 15px 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-17.auto-fold #adminmenu .wp-menu-name{
+		margin-left: 46px;
+		margin-top: 4px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-17 #adminmenu .wp-has-submenu .wp-submenu{
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-17 #adminmenuwrap .eat-admin-logo{
+		max-width: 100%;
+		width: 100%;
+		padding: 30px 20px 10px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpcontent{
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar .quicklinks > ul > li > a{
+		padding: 8px 4px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		top: 8px;
+		left: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16.auto-fold #adminmenu .wp-menu-name{
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu a.menu-top{
+		padding: 20px 0px 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16.auto-fold #adminmenu a.menu-top{
+		height: 60px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu .wp-has-submenu .wp-submenu{
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16.eat-admin-bar-fixed #wpwrap{
+		margin-top: 47px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu .wp-menu-name .update-plugins{
+		margin-top: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16.auto-fold #adminmenu{
+		top: 83px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-20.auto-fold #adminmenu li.menu-top .wp-submenu > li > a{
+		padding: 10px 10px 10px 25px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpadminbar .quicklinks > ul > li > a{
+		padding: 0px 5px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15.eat-admin-bar-fixed #wpwrap{
+		padding: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wp-admin-bar-user-actions{
+		bottom: 100px;
+		left: 47%;
+		text-align: left;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #wp-admin-bar-user-actions{
+		bottom: 120px;
+		left: 47%;
+		text-align: left;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wpbody-content{
+		margin-top: 300px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-19 #wpbody-content{
+		margin-top: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #wp-admin-bar-user-actions li a img{
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15.auto-fold #adminmenuback{
+		z-index: 0;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15.auto-fold #wpcontent{
+		margin-left: -10px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li > a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu .wp-has-submenu a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li.opensub > a.menu-top, 
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu a.menu-top {
+	    padding: 15px 15px 40px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuwrap div.eat-admin-logo{
+		width: 218px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuback, 
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuwrap, 
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu .wp-submenu{
+		width: 251px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li > a.wp-has-submenu .wp-menu-arrow::after{
+		top: 20px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu li.opensub > a.wp-has-submenu .wp-menu-arrow::after{
+		top: 20px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .quicklinks > ul > li > a{
+		padding: 8px 6px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 12px;
+		margin-top: 8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenuwrap .eat-admin-logo{
+		max-width: 260px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-14.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu li a.menu-top{
+		height: 55px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-14.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenuwrap .eat-admin-logo{
+		max-width: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu div.wp-menu-image::before{
+		padding: 5px;
+		margin-left: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu div.wp-menu-name{
+		padding: 12px 20px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .wp-submenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .wp-menu-open .wp-submenu li a{
+		padding-left: 75px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu li a.menu-top{
+		height: 60px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #wpadminbar .quicklinks > ul > li > a{
+		padding: 8px 6px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 12px;
+		margin-top: 8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu li.wp-has-submenu > a::before{
+		top: 24px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu li:first-child > a::before{
+		top: 30px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenuwrap .eat-admin-logo{
+		max-width: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu div.wp-menu-image::before{
+		padding: 5px;
+		margin-left: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu div.wp-menu-name{
+		padding: 8px 10px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .wp-submenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .wp-menu-open .wp-submenu li a{
+		padding-left: 65px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li a.menu-top{
+		min-height: 50px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #wpadminbar .quicklinks > ul > li > a{
+		padding: 8px 6px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 12px;
+		margin-top: 8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .update-plugins{
+		margin-top: -2px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.menu-top-first::after{
+		display: none !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.menu-top-last::after{
+		display: none !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.menu-top-last{
+		margin-bottom: 20px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.wp-has-submenu > a::before{
+		top: 24px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.menu-top-first > a::before {
+	    top: 30px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu, 
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuback, 
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuwrap{
+		overflow: visible;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpcontent{
+		margin-left: 0px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpadminbar .quicklinks > ul > li > a{
+		padding: 8px 6px 0px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-8 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 12px;
+		margin-top: 8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-8.eat-admin-bar-fixed #wpwrap{
+		margin-top: -20px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu li a.menu-top{
+		min-height: 55px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenuwrap .eat-admin-logo{
+		max-width: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu div.wp-menu-image::before{
+		padding: 5px;
+		margin-left: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu div.wp-menu-name{
+		padding: 8px 10px;
+	}
+
+	 .eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu .wp-submenu a{
+	 	padding: 12px 20px !important;
+	 }
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu .wp-submenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu .wp-menu-open .wp-submenu li a{
+		padding-left: 55px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu li a.menu-top{
+		min-height: 50px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpcontent{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar .quicklinks > ul > li > a{
+		padding: 1px 6px 3px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 18px;
+		margin-top: 0px;
+	}
+	 .eat-body-class-wrap.eat-dashboard-temp-9 #adminmenuwrap .eat-admin-logo{
+	 	padding: 20px;
+	 }
+
+	 .eat-body-class-wrap.eat-dashboard-temp-10 #adminmenuwrap .eat-admin-logo{
+		max-width: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu div.wp-menu-image::before{
+		padding: 5px;
+		margin-left: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu div.wp-menu-name{
+		padding: 8px 10px;
+	}
+	
+	 .eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu .wp-submenu a{
+	 	padding: 12px 20px !important;
+	 }
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu .wp-submenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu .wp-menu-open .wp-submenu li a{
+		padding-left: 56px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu li a.menu-top{
+		min-height: 50px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpcontent{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar .quicklinks > ul > li > a{
+		padding: 7px 6px 4px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 12px;
+		margin-top: 8px;
+	}
+	 .eat-body-class-wrap.eat-dashboard-temp-10 #adminmenuwrap .eat-admin-logo{
+	 	padding: 20px;
+	 }
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar li .ab-icon::before,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar li:focus .ab-icon::before{
+		color: #000 !important;
+	 }
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenuwrap .eat-admin-logo{
+		max-width: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu div.wp-menu-image::before{
+		padding: 5px;
+		margin-left: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu div.wp-menu-name{
+		padding: 8px 10px;
+	}
+	
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu .wp-submenu a{
+	 	padding: 12px 20px !important;
+	 }
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu .wp-submenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu .wp-menu-open .wp-submenu li a{
+		padding-left: 56px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu li a.menu-top{
+		min-height: 60px !important;
+		font-size: 14px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpcontent{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar .quicklinks > ul > li > a{
+		padding: 6px 6px 2px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 12px;
+		margin-top: 8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-11 #adminmenuwrap .eat-admin-logo{
+	 	padding: 20px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenuwrap .eat-admin-logo{
+		max-width: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu div.wp-menu-image::before{
+		padding: 5px;
+		margin-left: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu div.wp-menu-name{
+		padding: 8px 10px;
+	}
+	
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu .wp-submenu a{
+	 	padding: 12px 20px !important;
+	 }
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu .wp-submenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu .wp-menu-open .wp-submenu li a{
+		padding-left: 62px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu li a.menu-top{
+		min-height: 55px !important;
+		font-size: 14px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpcontent{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar .quicklinks > ul > li > a{
+		padding: 6px 6px 2px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 12px;
+		margin-top: 8px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-12 #adminmenuwrap .eat-admin-logo{
+	 	padding: 20px;
+	}
+	 .eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu .wp-submenu li:hover a{
+	 	color: #FFF;
+	 }
+	 .eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu li.wp-menu-open .wp-submenu li a:hover{
+	 	color: #69C8F6;
+	 }
+	 .eat-body-class-wrap.eat-dashboard-temp-13 #adminmenuwrap .eat-admin-logo{
+		max-width: 270px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13.auto-fold #adminmenu{
+		top: auto;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu div.wp-menu-image::before{
+		padding: 5px;
+		margin-left: 5px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu div.wp-menu-name{
+		padding: 8px 10px;
+	}
+	
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu .wp-submenu a{
+	 	padding: 12px 20px !important;
+	 }
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu .wp-submenu li a, 
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu .wp-menu-open .wp-submenu li a{
+		padding-left: 62px !important;
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu li a.menu-top{
+		min-height: 51px !important; /*changed*/
+		font-size: 12px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpcontent{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13.eat-admin-bar-fixed #wpwrap{
+		margin-top: 45px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar .quicklinks > ul > li > a{
+		padding: 7px 6px 1px !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img{
+		left: 18px;
+		margin-top: 6px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenuwrap .eat-admin-logo{
+	 	padding: 20px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu li a .dashicons-before::before{
+		left: -2px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper{
+		left: auto;
+		right: 0;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wp-toolbar > ul > li, #wpadminbar #wp-admin-bar-user-actions.ab-submenu img.avatar,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wp-toolbar > ul > li, #wpadminbar #wp-admin-bar-user-actions.ab-submenu img.avatar,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wp-toolbar > ul > li, #wpadminbar #wp-admin-bar-user-actions.ab-submenu img.avatar,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wp-toolbar > ul > li, #wpadminbar #wp-admin-bar-user-actions.ab-submenu img.avatar{
+		display: block;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-edit-profile a::before,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-edit-profile a::before,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-edit-profile a::before,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-edit-profile a::before {
+	    left: -7px;
+	    top: 7px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-logout a::before,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-logout a::before,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-logout a::before,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li#wp-admin-bar-logout a::before {
+	    left: -3px;
+	    top: 7px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wp-admin-bar-my-account div.ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wp-admin-bar-my-account:hover div.ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wp-admin-bar-my-account div.ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wp-admin-bar-my-account:hover div.ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wp-admin-bar-my-account div.ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wp-admin-bar-my-account:hover div.ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wp-admin-bar-my-account div.ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wp-admin-bar-my-account:hover div.ab-sub-wrapper{
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenuwrap .eat-admin-logo{
+		max-width: 170px;
+		padding: 10px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-16 .eat-menu-wpcontent-wrap{
+		margin-top: -32px;
+	}
+		/*....................................new css....................*/
+	.eat-body-class-wrap #wpcontent {
+     margin-right: 0px;
+}
+
+.wp-responsive-open #wpbody {
+    right: 0;
+    top: 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-25 #adminmenu .wp-has-submenu .wp-menu-arrow div:before{
+	    left: 150px;
+}
+.auto-fold #adminmenuwrap {
+    width: 200px;
+}
+.eat-dashboard-temp-1 #wpbody {
+    padding: 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-25 .eat-admin-image img {
+    width: 160px;
+    }
+.eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu li.wp-has-submenu a.menu-top:before{
+	    right: 3px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenuback {
+    width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuwrap {
+      width: 200px;
+      top: -8px; 
+}
+.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar div.eat-admin-image{
+	    line-height: 70px;
+}
+.eat-body-class-wrap #adminmenuback{
+	width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-14 .eat-admin-image img {
+    width: 190px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenuwrap{
+	width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar {
+   
+    margin-top: -50px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-17 .eat-admin-image img {
+    width: 150px;
+}  
+.eat-body-class-wrap.eat-dashboard-temp-18 .eat-admin-image img {
+    width: 155px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-19 #adminmenuwrap {
+    margin-top: 50px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-19 .eat-admin-image img {
+    width: 150px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenumain div.eat-admin-image img{
+	    margin-top: 20px;
+}
+#adminmenumain{
+    display: none;
+}
+.wp-responsive-open #adminmenumain{
+	display: block;
+}
+#wpcontent{
+	padding-left: 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-19 #wpbody-content{
+	    padding: 24px 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-10 .eat-admin-image img {
+    width: 150px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-11 #wp-admin-bar-my-account div.ab-sub-wrapper{
+	    margin-right: 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar div.eat-admin-logo {
+    width: 209px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 #wpbody-content{
+	padding: 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuback{
+	width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-23 div.eat-admin-logo{
+	    top: 60px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-23 #adminmenuwrap {
+    top: 10px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15.auto-fold #adminmenuback {
+    z-index: 21;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 .eat-user-profile-section{
+	z-index: 40;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuwrap{
+	    z-index: 25;
+}
+.eat-dashboard-temp-15 .wp-responsive-open #wpbody {
+    right: 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu .wp-submenu {
+    width: 200px;
+}
+.eat-dashboard-temp-15 #adminmenuback {   
+    bottom: -176px;    
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 #wp-admin-bar-user-actions li a img {
+    margin-top: 0px;
+    margin-left: -20px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-2 #wpadminbar{
+	    padding: 8px 0px;
+}
+.eat-dashboard-temp-5 .toplevel_page_everest-admin-theme .wp-menu-name {
+    padding: 0px ;
+}
+.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenuback{
+	width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenuwrap .eat-admin-logo {
+    max-width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .opensub .wp-submenu, 
+.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .wp-menu-open .wp-submenu{
+	    top: 20px !important;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenuwrap .eat-admin-logo {
+    max-width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 .eat-admin-image img {
+    width: 150px;
+    margin: 0 20px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .opensub .wp-submenu, 
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .wp-menu-open .wp-submenu{
+	    top: 5px !important;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuback{
+	    width: 200px;
+	        top: -7px;
+}
+.eat-dashboard-temp-9 #wpbody {
+    padding: 0 0px 20px 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-9 #adminmenuwrap .eat-admin-logo {
+    max-width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-9 .eat-admin-image img {
+    width: 150px;
+    margin: 0;
+}
+.eat-dashboard-temp-12 #wpbody {
+    padding: 0 0px 20px 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenuwrap .eat-admin-logo {
+    max-width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenuwrap{
+	    width: 180px; /*changed*/
+}
+.eat-body-class-wrap.eat-dashboard-temp-13 .eat-admin-image img {
+    width: 150px;    
+}
+.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu div.wp-menu-name {
+    padding: 8px 0px;
+}
+.eat-admin-main-wrapper {
+    margin-right: 0px;
+}
+.eat-dashboard-temp-4 #wpbody {
+    padding: 0 0px 20px 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenuwrap{
+	    width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuback {
+    
+    top: -15px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu .wp-submenu {
+    width: 201px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar div.eat-admin-logo img {    
+    margin-top: 18px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-16 #wpadminbar {
+    margin-top: -45px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-9 #wpadminbar {   
+    padding: 8px 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.menu-top {
+    padding: 5px 0px;
+}
+.eat-body-class-wrap #adminmenu .wp-submenu {
+    width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu li.menu-top {
+    padding: 5px 1px;
+}
+#toplevel_page_everest-admin-theme .eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu div.wp-menu-name {
+    padding: 0px 10px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .opensub .wp-submenu, .eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .wp-menu-open .wp-submenu {
+    top: 0px !important;
+}
+.eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu div.wp-menu-image {
+    position: absolute;
+    right: 5px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-4.auto-fold #adminmenu div.wp-menu-name {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.eat-dashboard-temp-5 #toplevel_page_everest-admin-theme .wp-menu-name {   
+    margin-left: 20px;
+}
+.eat-dashboard-temp-5 .wp-menu-image {   
+    left: 0;
+}
+.eat-dashboard-temp-5 #adminmenu {
+    top: 10px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu div.wp-menu-image::before {   
+    margin-left: 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu div.wp-menu-name {
+    padding: 8px 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-13 #adminmenuback{
+	    width: 200px;
+}
+.eat-dashboard-temp-19 .wp-menu-image {    
+    left: 0;
+}
+.eat-dashboard-temp-19 #adminmenu .wp-menu-name {
+       margin-left: 15px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu li.menu-top {
+    padding: 5px 1px;
+}
+.eat-dashboard-temp-22 .wp-menu-image {    
+    left: 0;
+}
+.eat-dashboard-temp-22 .wp-menu-name {    
+    margin-left: 15px;
+}
+.eat-dashboard-temp-23 .wp-menu-image {    
+    left: 0;
+}
+.eat-dashboard-temp-23 #adminmenu .wp-menu-name {    
+    margin-left: 15px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-24 #adminmenu {
+    padding: 0px 0px;
+}
+.eat-dashboard-temp-25 .wp-menu-image {    
+    left: 0;
+}
+.eat-dashboard-temp-25 #adminmenu .wp-menu-name {
+    position: static;
+    margin-left: 10px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-25 #adminmenu li a.menu-top {    
+    font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	#wpbody{
+		padding-top: 5px;
+	}
+	.eat-dashboard-temp-15.auto-fold #adminmenu{
+		top: 0px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-tab-content-header-title{
+		font-size: 18px;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbHolder, .eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions{
+		width: 190px;
+	}
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li{
+		padding: 10px 15px;
+		font-size: 12px;
+	}
+	
+	.eat-social-btns iframe:nth-of-type(1){
+		margin: 0px;
+		margin-bottom: 2px;
+		float: right;
+	}
+	#twitter-widget-0{
+		margin: 0px;
+		float: right;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap input{
+		width: 100%;
+		font-size: 12px;
+	}
+	.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .eat-button{
+		padding: 7px 10px;
+		font-size: 13px;
+		margin-top: 5px;
+	}
+	
+
+}
+@media only screen and (max-width: 425px) {
+	.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button{
+		padding: 6px 0px;
+		height: 34px;
+	}
+	.eat-body-class-wrap.eat-dashboard-temp-10 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper,
+	.eat-body-class-wrap.eat-dashboard-temp-13 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper{
+		left: auto;
+		right: 0;
+		width: 100%;
+	}
+	/*.......................new css...................................*/
+	.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo, 
+	.eat-admin-main-wrapper .eat-header-wrapper .eat-header-icons{
+	 	width: 100%;
+	 }
+	 .eat-admin-main-wrapper .eat-header-wrapper .eat-header-icons {
+    text-align: center;
+    }
+    .eat-social-btns iframe:nth-of-type(1){
+    	float: none;
+    }
+    #twitter-widget-0{
+    	float: none;
+    }
+    .eat-admin-main-wrapper {
+     margin-right: 0px; 
+}
+.eat-body-class-wrap #wpcontent {
+    margin-right: 0px;
+}
+.auto-fold #wpcontent{
+	padding: 0;
+}
+.auto-fold #wpcontent {   
+    padding-left: 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-25 #adminmenu .wp-has-submenu .wp-menu-arrow div:before{
+	right: 0px;
+}
+#adminmenuwrap {
+    margin-top: 45px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.parent-wrap:after{
+	height: 50%;
+}
+.eat-body-class-wrap.eat-dashboard-temp-2 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-3 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-4 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-5 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-7 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-9 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-10 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-11 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-12 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-13 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu .wp-menu-name, .eat-body-class-wrap.eat-dashboard-temp-16 #adminmenu .wp-menu-name {
+    position: static;
+}
+.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar div.eat-admin-logo{
+	    width: 50px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-11 #wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper{
+	left: auto;
+    right: 21px;
+    width: 90%;
+}
+.auto-fold #adminmenuwrap {
+    width: 200px;
+}
+.eat-body-class-wrap #adminmenu{
+	width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-1 #adminmenuwrap .eat-admin-logo{
+	margin: 15px auto;
+}
+.eat-dashboard-temp-3 #wpbody {
+    padding: 0 20px 20px 0;
+}
+.eat-dashboard-temp-5 #wpbody {
+    padding: 0 20px 20px 0;
+}
+.eat-dashboard-temp-6 #wpbody {
+    padding: 0 20px 20px 0;
+}
+.eat-dashboard-temp-7 #wpbody {
+    padding: 0 20px 20px 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-7 .eat-admin-image img {
+    width: 150px;    
+    margin: 0 20px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuwrap {
+    width: 200px;
+    top: -15px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuback{
+	    width: 200px;
+}
+.eat-dashboard-temp-10 #wpbody {
+    padding: 0 20px 20px 0;
+}
+.eat-dashboard-temp-11 #wpbody {
+    padding: 0 20px 20px 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-12 #wpadminbar div.eat-admin-logo {
+    width: 60px;
+}
+.eat-dashboard-temp-13 #wpbody {
+    padding: 0 20px 20px 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-16 #adminmenuwrap {
+    width: 150px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-17 .eat-admin-image img {    
+    margin-top: -38px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-22 #adminmenu {
+    padding-top: 5px;
+    margin-top: 105px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-23 #wpwrap {
+    margin-top: 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenuwrap{
+	z-index: 1000;
+}
+.eat-body-class-wrap.eat-dashboard-temp-15 #adminmenu{
+	    width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-3.auto-fold #adminmenu {
+    top: 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenuback{	    
+	        top: 20px;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-23 div.eat-admin-image{
+	position: absolute;
+}
+.auto-fold #adminmenu {
+    top: 125px;
+}
+.auto-fold #adminmenu .wp-has-current-submenu .wp-submenu{
+	    margin-right: 0px;
+
+}
+.eat-dashboard-temp-5 .auto-fold #adminmenu {
+    top: 5px;
+}
+.eat-dashboard-temp-7 #adminmenuback {    
+    bottom: -153px;    
+}
+.eat-dashboard-temp-8 #adminmenu {
+    top: 20px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-8 #adminmenu{
+	width: 200px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-17 .eat-admin-image img {
+    margin-top: 0px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-20 #adminmenu,
+.eat-body-class-wrap.eat-dashboard-temp-21 #adminmenu {
+    top: 5px;
+}
+.eat-dashboard-temp-23 #wpbody {
+    padding-top: 50px;
+}
+.eat-dashboard-temp-5 #adminmenu {
+    top: 10px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-6 #adminmenu{
+	width: 200px;
+}
+.eat-dashboard-temp-23 #adminmenu {
+    top: 200px;
+}
+.eat-dashboard-temp-25 #adminmenu .wp-menu-name {
+    
+    margin-left: 5px;
+}
+.eat-body-class-wrap.eat-dashboard-temp-25 #adminmenu .wp-has-submenu .wp-menu-arrow div:before {
+    left: 155px;
+}
+}
+
+
+

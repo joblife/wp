@@ -384,40 +384,6 @@ class Widget_Video extends Widget_Base {
 		);
 
 		$this->add_control(
-			'lazy_load',
-			[
-				'label' => __( 'Lazy Load', 'elementor' ),
-				'type' => Controls_Manager::SWITCHER,
-				'conditions' => [
-					'relation' => 'or',
-					'terms' => [
-						[
-							'name' => 'video_type',
-							'operator' => '===',
-							'value' => 'youtube',
-						],
-						[
-							'relation' => 'and',
-							'terms' => [
-								[
-									'name' => 'show_image_overlay',
-									'operator' => '===',
-									'value' => 'yes',
-								],
-								[
-									'name' => 'video_type',
-									'operator' => '!==',
-									'value' => 'hosted',
-								],
-							],
-						],
-					],
-				],
-				'frontend_available' => true,
-			]
-		);
-
-		$this->add_control(
 			'rel',
 			[
 				'label' => __( 'Suggested Videos', 'elementor' ),
@@ -558,6 +524,18 @@ class Widget_Video extends Widget_Base {
 					'show_image_overlay' => 'yes',
 				],
 				'frontend_available' => true,
+			]
+		);
+
+		$this->add_control(
+			'lazy_load',
+			[
+				'label' => __( 'Lazy Load', 'elementor' ),
+				'type' => Controls_Manager::SWITCHER,
+				'condition' => [
+					'show_image_overlay' => 'yes',
+					'video_type!' => 'hosted',
+				],
 			]
 		);
 

@@ -1,4 +1,4 @@
-/*! elementor - v3.1.2 - 02-03-2021 */
+/*! elementor - v3.1.1 - 31-01-2021 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["frontend"],{
 
 /***/ "../node_modules/@babel/runtime-corejs2/core-js/array/from.js":
@@ -2713,7 +2713,8 @@ var BackgroundVideo = /*#__PURE__*/function (_elementorModules$fro) {
         startStateCode = YT.PlayerState.UNSTARTED;
       }
 
-      var playerOptions = {
+      $backgroundVideoContainer.addClass('elementor-loading elementor-invisible');
+      this.player = new YT.Player(this.elements.$backgroundVideoEmbed[0], {
         videoId: videoID,
         events: {
           onReady: function onReady() {
@@ -2746,15 +2747,7 @@ var BackgroundVideo = /*#__PURE__*/function (_elementorModules$fro) {
           rel: 0,
           playsinline: 1
         }
-      }; // To handle CORS issues, when the default host is changed, the origin parameter has to be set.
-
-      if (elementSettings.background_privacy_mode) {
-        playerOptions.host = 'https://www.youtube-nocookie.com';
-        playerOptions.origin = window.location.hostname;
-      }
-
-      $backgroundVideoContainer.addClass('elementor-loading elementor-invisible');
-      this.player = new YT.Player(this.elements.$backgroundVideoEmbed[0], playerOptions);
+      });
     }
   }, {
     key: "activate",
@@ -2909,7 +2902,7 @@ var HandlesPosition = /*#__PURE__*/function (_elementorModules$fro) {
   }, {
     key: "isFirstSection",
     value: function isFirstSection() {
-      return this.$element[0] === document.querySelector('.elementor-edit-mode .elementor-top-section');
+      return this.$element.is('.elementor-edit-mode .elementor-top-section:first');
     }
   }, {
     key: "isOverflowHidden",
@@ -4068,11 +4061,11 @@ module.exports = elementorModules.ViewModule.extend({
       if (event.shiftKey) {
         if (isFirst) {
           event.preventDefault();
-          $buttons.last().trigger('focus');
+          $buttons.last().focus();
         }
       } else if (isLast || !focusedButton) {
         event.preventDefault();
-        $buttons.first().trigger('focus');
+        $buttons.first().focus();
       }
     }
   },

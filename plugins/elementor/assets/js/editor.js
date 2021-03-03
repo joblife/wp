@@ -1,4 +1,4 @@
-/*! elementor - v3.1.2 - 02-03-2021 */
+/*! elementor - v3.1.1 - 31-01-2021 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -19331,7 +19331,7 @@ exports.default = _default;
   \********************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 184:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 185:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -19380,6 +19380,7 @@ SortableBehavior = Marionette.Behavior.extend({
 
     var $childViewContainer = this.getChildViewContainer(),
         defaultSortableOptions = {
+      connectWith: $childViewContainer.selector,
       placeholder: 'elementor-sortable-placeholder elementor-' + this.getOption('elChildType') + '-placeholder',
       cursorAt: {
         top: 20,
@@ -21825,7 +21826,6 @@ var _default = /*#__PURE__*/function (_BaseRegion) {
       manager: (0, _assertThisInitialized2.default)(_this)
     }));
     _this.isDocked = false;
-    _this.storage.size.width = _this.storage.size.width || _this.$el.css('width');
     _this.indicators = {
       customPosition: {
         title: __('Custom Positioning', 'elementor'),
@@ -26387,7 +26387,7 @@ module.exports = {
     }
 
     if (!$document.find(selector).length) {
-      $document.find('link').last().after(link);
+      $document.find('link:last').after(link);
     }
   },
   enqueuePreviewStylesheet: function enqueuePreviewStylesheet(url) {
@@ -27217,7 +27217,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
     };
 
     var onDragEnd = function onDragEnd(event) {
-      if ('function' === typeof settings.onDragEnd) {
+      if ($.isFunction(settings.onDragEnd)) {
         settings.onDragEnd.call(elementsCache.$element, event, self);
       }
     };
@@ -27232,7 +27232,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
         event.originalEvent.dataTransfer.setData((0, _stringify.default)(dataContainer), true);
       }
 
-      if ('function' === typeof settings.onDragStart) {
+      if ($.isFunction(settings.onDragStart)) {
         settings.onDragStart.call(elementsCache.$element, event, self);
       }
     };
@@ -27390,7 +27390,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
         }
       }
 
-      if ('function' === typeof settings.isDroppingAllowed) {
+      if ($.isFunction(settings.isDroppingAllowed)) {
         droppingAllowed = settings.isDroppingAllowed.call(currentElement, currentSide, event, self);
 
         if (!droppingAllowed) {
@@ -27428,7 +27428,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
       elementsCache.$element.addClass(settings.hasDraggingOnChildClass);
       $(currentElement).addClass(settings.currentElementClass);
 
-      if ('function' === typeof settings.onDragEnter) {
+      if ($.isFunction(settings.onDragEnter)) {
         settings.onDragEnter.call(currentElement, currentSide, event, self);
       }
     };
@@ -27453,7 +27453,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
         insertPlaceholder();
       }
 
-      if ('function' === typeof settings.onDragging) {
+      if ($.isFunction(settings.onDragging)) {
         settings.onDragging.call(this, currentSide, event, self);
       }
     };
@@ -27478,7 +27478,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
 
       event.preventDefault();
 
-      if ('function' === typeof settings.onDropping) {
+      if ($.isFunction(settings.onDropping)) {
         settings.onDropping.call(this, currentSide, event, self);
       }
     };
@@ -27500,7 +27500,7 @@ var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-c
 
       elementsCache.$element.removeClass(settings.hasDraggingOnChildClass);
 
-      if ('function' === typeof settings.onDragLeave) {
+      if ($.isFunction(settings.onDragLeave)) {
         settings.onDragLeave.call(currentElement, event, self);
       }
 

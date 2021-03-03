@@ -1,0 +1,65 @@
+/* Instructor specific styles on admin dashboard */
+a.ld-back-link {
+	display: none;
+}
+
+.ld-tab-buttons > a:not(:first-child){
+	display: none;
+}
+
+.post-type-sfwd-quiz .ld-tab-buttons > a, .post-type-sfwd-essays .ld-tab-buttons > a{
+	display: inline-flex;
+}
+
+.eat-body-class-wrap .count, .eat-body-class-wrap .notice.notice-error.is-dismissible {
+	display: none;
+}
+
+.woocommerce-BlankState .woocommerce-BlankState-cta:not(.button-primary) {
+	display: none !important;
+}
+
+.wl8qcn-email-desc {
+	margin-top: 0;
+	color: #595959;
+	font-style: italic;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.wl8qcn-email-heading h2 {
+	display: inline-block;
+}
+
+.ir-course-purchase-email-body {
+	width: 100%;
+}
+.ir-course-purchase-email-body input{
+	width: 100%;
+}
+
+.ir-email-settings-label {
+	text-align: left;
+	vertical-align: top;
+	padding: 10px;
+	font-size: 14px;
+}
+
+/* Course report styling */
+div.ir-no-enrollments {
+	text-align: center;
+}
+
+p.no-reports-message {
+	font-size: 20px;
+	margin-top: 0;
+	font-weight: 600;
+}
+/* Hide Group admin actions */
+#learndash-view-form td.group_actions a:last-child {
+	display: none;
+}
+
+body.sticky-menu div#adminmenuwrap{
+    position: relative;
+}

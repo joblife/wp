@@ -1,0 +1,259 @@
+/* Template 3 (13)*/
+#adminmenuback {
+    width: 160px;
+    z-index: 100;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 div#adminmenuwrap{
+    width: 160px;
+    position: relative !important;
+    top: 0px !important;
+}
+
+.folded #wpbody-content{
+    float: none;
+}
+
+#adminmenu {
+	width: 160px;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenuback, .eat-body-class-wrap.eat-dashboard-temp-14 #adminmenuwrap, .eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu, .eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu .wp-submenu {
+	width: 160px;
+	background: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu li.wp-menu-open .wp-submenu {
+	width: 160px;
+	background: rgb(47, 47, 47);
+}
+
+
+/* New Styles */
+.eat-body-class-wrap.eat-dashboard-temp-14 div#ir-primary-navigation {
+    z-index: 999999;    
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 div#ir-primary-navigation , .eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .menupop .ab-sub-wrapper, .eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary{
+    background: rgb(47, 47, 47);
+    background: -webkit-linear-gradient(45deg, rgb(47, 47, 47) 0%, rgb(47, 47, 47) 100%);
+    background: linear-gradient(45deg, rgb(47, 47, 47), rgb(47, 47, 47) 100%);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 ul#ir-primary-menu li.menu-item a, .eat-body-class-wrap.eat-dashboard-temp-14 ul#ir-primary-menu li.menu-item {
+    color: #FFF;
+}
+
+ul#ir-primary-menu ul.sub-menu li{
+    background: rgb(47, 47, 47);
+}
+
+ul#ir-primary-menu ul.sub-menu li:hover{
+    background: rgb(47, 47, 47);
+}
+
+ul#ir-primary-menu ul.sub-menu:before {
+    color: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14.wp-core-ui #sfwd-header .button {
+    color: #000;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14.wp-core-ui .button, 
+.eat-body-class-wrap.eat-dashboard-temp-14.wp-core-ui .button-secondary, 
+.eat-body-class-wrap.eat-dashboard-temp-14 .wordfenceWrap input[type='button'], 
+.eat-body-class-wrap.eat-dashboard-temp-14 .wordfenceWrap input[type='submit'],
+.eat-body-class-wrap.eat-dashboard-temp-14 .wrap .page-title-action,
+.eat-body-class-wrap.eat-dashboard-temp-14 .actions .button, #sfwd-header .global-new-entity-button, .edit-post-header .components-button.editor-post-publish-button, .edit-post-header .components-button.editor-post-preview{
+	background: rgb(47, 47, 47);
+	color: #fff;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14.wp-core-ui .button:hover, .eat-body-class-wrap.eat-dashboard-temp-14.wp-core-ui .button-secondary:hover, .eat-body-class-wrap.eat-dashboard-temp-14 .wordfenceWrap input[type='button']:hover, .eat-body-class-wrap.eat-dashboard-temp-14 .wordfenceWrap input[type='submit']:hover, .eat-body-class-wrap.eat-dashboard-temp-14 .wrap .page-title-action:hover{
+    background: rgb(47, 47, 47);
+}
+
+#sfwd-header a.is-button.button.components-button.is-primary, #sfwd-header button.is-button.components-button.ld-actions.button {
+    color: #000000;
+}
+
+#sfwd-header button.is-button.components-button.ld-actions.button svg path {
+    stroke: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 a {
+    color: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #collapse-button .collapse-button-icon {
+    background: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #sfwd-header .ld-global-header a.button.is-primary, .eat-body-class-wrap.eat-dashboard-temp-14 #sfwd-header .ld-global-header button.button.is-primary {
+    box-shadow: 0 4px 0 0 #fff,0 8px 0 0 rgb(47, 47, 47)!important;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 .footable > tfoot > tr > th, .footable > tfoot > tr > td, .eat-body-class-wrap.eat-dashboard-temp-14 .footable > thead > tr > th, .footable > thead > tr > td {
+    background-color: rgb(47, 47, 47);
+    background-image: linear-gradient(to bottom, rgb(47, 47, 47), rgb(47, 47, 47));
+    color: #fff !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 .footable > tbody > tr:hover {
+    background: #2a184121;
+} 
+
+.eat-body-class-wrap.eat-dashboard-temp-14 .footable > tbody > tr > td {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #wdm_total_amount_paid {
+    color: #fff;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .menupop .ab-sub-wrapper .ab-submenu li a:after, .eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary li a:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    bottom: 0;
+    z-index: 0;
+    background: rgba(255,255,255,.075);
+    transition: all .3s cubic-bezier(.215,.061,.355,1);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: block !important;    
+    width: 0;
+}
+.eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .menupop .ab-sub-wrapper .ab-submenu li a:hover:after, .eat-body-class-wrap.eat-dashboard-temp-14 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary li a:hover:after {
+    width: 100%;
+}
+
+#wpadminbar ul#wp-admin-bar-root-default>li {
+	margin-right: 10px;
+	margin-left: 6px;
+}
+@media only screen and (max-width: 960px){
+	.auto-fold #adminmenu a.menu-top{
+		height: 51px;
+	}
+}
+@media (min-width: 782px) and (min-width: 960px) {
+    body.eat-body-class-wrap.eat-dashboard-temp-14.auto-fold .edit-post-layout__content {
+        margin-left: 160px;
+    }
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14.folded #adminmenu {
+    width: 50px; 
+}
+
+div#sfwd-header {
+    z-index: 99;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu .wp-has-submenu .wp-submenu a {
+    padding: 15px 25px 15px 20px !important;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 div.wp-menu-image::before {
+    padding: 7px 0;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu a.menu-top {
+    padding: 8px !important;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu div.wp-menu-image {
+    margin-right: 0;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu li a.menu-top {
+    font-size: 12px;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu .wp-has-submenu .wp-menu-arrow div:before {
+    font-size: 12px;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu div.wp-menu-name {
+    margin-right: 10px;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #adminmenu .update-plugins {
+    margin-right: 15px;
+}
+
+.edit-post-meta-boxes-area #poststuff .stuffbox>h3, .edit-post-meta-boxes-area #poststuff h2.hndle, .edit-post-meta-boxes-area #poststuff h3.hndle, .edit-post-meta-boxes-area #poststuff h2.hndle .ld-metabox-description p{
+    color: #fff;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14.wp-core-ui .button, 
+.eat-body-class-wrap.eat-dashboard-temp-14.wp-core-ui .button-secondary, 
+.eat-body-class-wrap.eat-dashboard-temp-14 .wordfenceWrap input[type='button'], 
+.eat-body-class-wrap.eat-dashboard-temp-14 .wordfenceWrap input[type='submit'],
+.eat-body-class-wrap.eat-dashboard-temp-14 .wrap .page-title-action,
+.eat-body-class-wrap.eat-dashboard-temp-14 .actions .button, #sfwd-header .global-new-entity-button, .edit-post-header .components-button.editor-post-publish-button, .edit-post-header .components-button.editor-post-preview{
+	background: rgb(47, 47, 47);
+	color: #fff;
+}
+
+.edit-post-header .components-button.editor-post-publish-panel__toggle {
+    background: rgb(47, 47, 47);
+    color: #fff;
+    border-color: rgb(47, 47, 47);
+    box-shadow: none;
+    text-shadow: none;
+    height: 40px;
+}
+
+.edit-post-header .components-button.editor-post-publish-panel__toggle:hover {
+    background: rgb(47, 47, 47);
+}
+
+select#instructor-courses-select {
+    color: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-13 .ir-instructor-info-tiles .ir-theme-color, .ir-instructor-overview-container h1, .eat-body-class-wrap.eat-dashboard-temp-14 .wrap h1{
+    color: rgb(47, 47, 47);
+}
+
+.ir-theme-color {
+    color: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 .ir-instructor-course-select-wrap:after {
+    color: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 table.wp-list-table thead tr th, .eat-body-class-wrap.eat-dashboard-temp-14 table.wp-list-table tfoot tr th {
+    color: #ddd;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 table.wp-list-table thead tr th a, .eat-body-class-wrap.eat-dashboard-temp-14 table.wp-list-table tfoot tr th a{
+    color:  #ddd;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 table.wp-list-table thead tr th a:hover, .eat-body-class-wrap.eat-dashboard-temp-14 table.wp-list-table tfoot tr th a:hover{
+    color:  #fff;
+}
+
+.eat-body-class-wrap.eat-dashboard-temp-14 #wdm_report_div {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.eat-body-class-wrap #screen-options-link-wrap button#show-settings-link{
+    background: rgb(47, 47, 47);
+}
+
+.eat-body-class-wrap #screen-meta-links {
+    z-index: 99998;
+}

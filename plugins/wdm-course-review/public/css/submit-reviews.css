@@ -1,0 +1,129 @@
+.blocker.behind {
+	visibility: hidden;
+}
+
+.rrf-modal-content {
+	min-width: 900px;
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+.rrf-modal-content.rating-preview {
+	text-align: left;
+}
+
+.rrf-modal-content .modal-container {
+	padding: 25px;
+	box-shadow: none;/*BuddyBoss theme patch*/
+}
+
+.rrf-modal-content .error-message {
+	color: red;
+	font-style: italic;
+}
+
+.rrf-modal-content.rating-preview .modal-container h4, .rrf-modal-content.rating-preview .modal-container .review-text {
+	padding: 10px;
+    padding-left: 0;
+}
+
+.rrf-modal-content.delete-review .review-text {
+	margin: 55px 0;
+}
+
+.rrf-modal-content.delete-review .modal-container h4 {
+	text-align: left;
+}
+
+.rrf-modal-content.delete-review .modal-container h4, .rrf-modal-content.delete-review .modal-container .review-text {
+	padding: 10px;
+    padding-left: 0;
+}
+
+.rrf-modal-content.rating-preview .modal-container h4, .rrf-modal-content.delete-review .modal-container h4 {
+    border-bottom: 1px solid #ddd;
+}
+
+.rrf-modal-content.modal .rating-xl .caption {
+    font-size: 20px;
+}
+
+.rrf-modal-content.modal .rating-lg .caption {
+    font-size: 18px
+}
+
+.rrf-modal-content.modal .rating-md .caption {
+    font-size: 16px
+}
+
+.rrf-modal-content.modal .rating-sm .caption {
+    font-size: 14px
+}
+
+.rrf-modal-content.modal .rating-xs .caption {
+    font-size: 12px
+}
+
+.rrf-modal-content .modal-container h3 {
+	margin-bottom: 30px;
+}
+
+.rrf-modal-content .modal-container .prompt-text {
+    margin: 15px 0;
+}
+
+.rrf-modal-content.star-submission {
+	padding-bottom: 55px;
+}
+
+.rrf-modal-content.star-submission .theme-krajee-fa .star {
+	font-size: 1.6em;
+}
+
+.rrf-modal-content .caption {
+    display: block;
+}
+
+.rrf-modal-content .modal-navigation {
+	position: absolute;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    bottom: 40px;
+}
+
+.rrf-modal-content .review-title.review-headline input[type="text"] {
+    margin: 10px 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+	.rrf-modal-content {
+		min-width: initial;
+		min-height: initial;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.rrf-modal-content {
+		min-width: initial;
+		min-height: initial;
+		padding-bottom: inherit;
+	}
+
+	.rrf-modal-content .modal-container {
+		padding: 0;
+	}
+
+	.rrf-modal-content.star-submission .theme-krajee-fa .star {
+		font-size: inherit;
+	}
+	.rrf-modal-content .modal-navigation {
+		position: static;		
+	}
+	.rrf-modal-content .modal-navigation button {
+		margin: 5px 0;
+		padding: 10px 25px; 
+	}
+
+}

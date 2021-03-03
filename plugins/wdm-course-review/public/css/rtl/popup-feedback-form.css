@@ -1,0 +1,20 @@
+button.wdm_feedback_form_pop {
+	margin: 10px 0;
+}
+span.wdm_crr_error_msg {
+    font-size: 16px;
+    display: block;
+    text-align: left;
+    color: #f44336;
+}
+
+.wdm_rrf_remaining_characters {
+    font-size: x-small;
+    text-align: left;
+    clear: both;
+}
+
+p.wdm_rrf_feedback_notice_msg {
+    font-size: x-small;
+    padding-top: 10px;
+}

@@ -1,0 +1,1337 @@
+# Copyright (C) 2021 WisdmLabs
+# This file is distributed under the same license as the Instructor Role plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Instructor Role 3.5.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/instructor-role\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-03T14:09:23+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wdm_instructor_role\n"
+
+#. Plugin Name of the plugin
+msgid "Instructor Role"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wisdmlabs.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This extension adds a user role 'Instructor' into your WordPress website and provides capabilities to create courses content and track student progress in your LearnDash LMS."
+msgstr ""
+
+#. Author of the plugin
+msgid "WisdmLabs"
+msgstr ""
+
+#: includes/class-instructor-role-activator.php:92
+msgid "LearnDash LMS plugin is not active. In order to make the 'Instructor Role' plugin work, you need to install and activate LearnDash LMS first."
+msgstr ""
+
+#: includes/class-instructor-role-activator.php:196
+#: includes/instructor-role-functions.php:1032
+#: modules/classes/class-instructor-role-notifications.php:130
+#: modules/classes/class-instructor-role-profile.php:997
+#: modules/classes/class-instructor-role-settings.php:67
+#: modules/classes/class-instructor-role-settings.php:68
+#: modules/classes/class-instructor-role-settings.php:200
+msgid "Instructor"
+msgstr ""
+
+#: includes/instructor-role-functions.php:103
+#: modules/classes/class-instructor-role-admin.php:463
+msgid "Author"
+msgstr ""
+
+#: includes/instructor-role-functions.php:1036
+msgid "Administrator"
+msgstr ""
+
+#: includes/instructor-role-functions.php:1040
+msgid "Editor"
+msgstr ""
+
+#: includes/instructor-role-functions.php:1044
+msgid "Subscriber"
+msgstr ""
+
+#: libs/admin_theme/everest-admin-theme.php:275
+#: libs/admin_theme/everest-admin-theme.php:276
+#: libs/admin_theme/inc/backend/common/header.php:3
+#: modules/classes/class-instructor-role-settings.php:2526
+msgid "Admin Customizer"
+msgstr ""
+
+#: modules/classes/class-instructor-role-admin.php:276
+msgid "You do not have sufficient permissions to access this page..."
+msgstr ""
+
+#: modules/classes/class-instructor-role-admin.php:347
+msgid "No data to display"
+msgstr ""
+
+#: modules/classes/class-instructor-role-admin.php:711
+msgid "Instructor Dashboard Menu - Enabled if you have an template selected from the admin customizer"
+msgstr ""
+
+#: modules/classes/class-instructor-role-admin.php:1177
+#: modules/classes/class-instructor-role-profile.php:256
+msgid "Profile"
+msgstr ""
+
+#: modules/classes/class-instructor-role-admin.php:1186
+msgid "Logout"
+msgstr ""
+
+#: modules/classes/class-instructor-role-commission.php:132
+msgid "The user is not instructor."
+msgstr ""
+
+#: modules/classes/class-instructor-role-commission.php:144
+msgid "Something is not correct with the amount"
+msgstr ""
+
+#: modules/classes/class-instructor-role-commission.php:152
+msgid "Could not find commission"
+msgstr ""
+
+#: modules/classes/class-instructor-role-commission.php:161
+msgid "Amount to be paid is not correct"
+msgstr ""
+
+#: modules/classes/class-instructor-role-emails.php:70
+msgid "Instructor Emails"
+msgstr ""
+
+#: modules/classes/class-instructor-role-emails.php:96
+msgid "Description : "
+msgstr ""
+
+#: modules/classes/class-instructor-role-emails.php:101
+msgid "Available shortcodes : "
+msgstr ""
+
+#: modules/classes/class-instructor-role-emails.php:102
+msgid "<em>[site_name]</em>, <em>[course_name]</em>, <em>[instructor_name]</em> and <em>[customer_name]</em>"
+msgstr ""
+
+#: modules/classes/class-instructor-role-emails.php:108
+#: modules/classes/class-instructor-role-settings.php:1543
+#: modules/classes/class-instructor-role-settings.php:1635
+#: modules/classes/class-instructor-role-settings.php:1738
+#: modules/classes/class-instructor-role-settings.php:1856
+#: modules/classes/class-instructor-role-settings.php:1963
+#: modules/classes/class-instructor-role-settings.php:2049
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:121
+msgid "Subject"
+msgstr ""
+
+#: modules/classes/class-instructor-role-emails.php:116
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:129
+msgid "Body"
+msgstr ""
+
+#: modules/classes/class-instructor-role-emails.php:130
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:117
+#: modules/templates/profile/settings/ir-profile-settings.template.php:179
+#: modules/templates/profile/settings/ir-profile-settings.template.php:188
+msgid "Save"
+msgstr ""
+
+#: modules/classes/class-instructor-role-learndash-handler.php:145
+#: modules/classes/class-instructor-role-learndash-handler.php:411
+msgid "Cheating uh?"
+msgstr ""
+
+#: modules/classes/class-instructor-role-learndash-menu-handler.php:147
+msgid "You do not have sufficient permissions to access this page"
+msgstr ""
+
+#: modules/classes/class-instructor-role-multiple-instructors.php:123
+msgid "Click for Search..."
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:460
+msgid "No Data Found"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:573
+msgid "Earnings"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:574
+msgid "Paid"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:575
+msgid "Unpaid"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:576
+msgid "Units"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:589
+#: modules/classes/class-instructor-role-reports.php:360
+#: modules/templates/course-report/ir-course-reports-chart.template.php:23
+msgid "Not Started"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:590
+#: modules/classes/class-instructor-role-reports.php:361
+#: modules/templates/course-report/ir-course-reports-chart.template.php:29
+msgid "In Progress"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:591
+#: modules/classes/class-instructor-role-reports.php:362
+#: modules/templates/course-report/ir-course-reports-chart.template.php:35
+msgid "Completed"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:592
+#: modules/classes/class-instructor-role-reports.php:367
+msgid "Users"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:674
+msgid "Approved"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:674
+msgid "Not Approved"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:683
+msgid "Assignment"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:752
+msgid "Graded"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:752
+msgid "Not Graded"
+msgstr ""
+
+#: modules/classes/class-instructor-role-overview.php:760
+msgid "Essay"
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:120
+msgid "OK\tThe request succeeded."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:121
+msgid "Created\tA POST method successfully created a resource. If the resource was already created by a previous execution of the same method, for example, the server returns the HTTP 200 OK status code."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:122
+msgid "Accepted\tThe server accepted the request and will execute it later."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:123
+msgid "No Content\tThe server successfully executed the method but returns no response body."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:124
+msgid "Bad Request\tINVALID_REQUEST. Request is not well-formed, syntactically incorrect, or violates schema."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:125
+msgid "Unauthorized\tAUTHENTICATION_FAILURE. Authentication failed due to invalid authentication credentials."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:126
+msgid "Forbidden\tNOT_AUTHORIZED. Authorization failed due to insufficient permissions."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:127
+msgid "Not Found\tRESOURCE_NOT_FOUND. The specified resource does not exist."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:128
+msgid "Method Not Allowed\tMETHOD_NOT_SUPPORTED. The server does not implement the requested HTTP method."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:129
+msgid "Not Acceptable\tMEDIA_TYPE_NOT_ACCEPTABLE. The server does not implement the media type that would be acceptable to the client."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:130
+msgid "Unsupported Media Type\tUNSUPPORTED_MEDIA_TYPE. The server does not support the request payload’s media type."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:131
+msgid "Unprocessable Entity\tUNPROCESSABLE_ENTITY. The API cannot complete the requested action, or the request action is semantically incorrect or fails business validation."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:132
+msgid "Unprocessable Entity\tRATE_LIMIT_REACHED. Too many requests. Blocked due to rate limiting."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:133
+msgid "Internal Server Error\tINTERNAL_SERVER_ERROR. An internal server error has occurred."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:134
+msgid "Service Unavailable\tSERVICE_UNAVAILABLE. Service Unavailable."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:157
+msgid "Funds have been credited to the recipient’s account."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:158
+msgid "This payout request has failed, so funds were not deducted from the sender’s account."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:159
+msgid "Your payout request was received and will be processed."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:160
+msgid "The recipient for this payout does not have a PayPal account. A link to sign up for a PayPal account was sent to the recipient. However, if the recipient does not claim this payout within 30 days, the funds are returned to your account."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:161
+msgid "The recipient has not claimed this payout, so the funds have been returned to your account."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:162
+msgid "This payout request is being reviewed and is on hold."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:163
+msgid "This payout request has been blocked."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:164
+msgid "This payout request was refunded."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:165
+msgid "This payout request was reversed."
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:240
+msgid "Paypal Payouts"
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:414
+msgid "Please select a valid payment method"
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:442
+#: modules/classes/class-instructor-role-payouts.php:467
+#: modules/classes/class-instructor-role-payouts.php:479
+#: modules/classes/class-instructor-role-payouts.php:489
+#: modules/classes/class-instructor-role-settings.php:1408
+msgid "Oops something went wrong"
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:449
+msgid "Please configure paypal payout settings and/or instructor paypal email"
+msgstr ""
+
+#. translators: Error type and details.
+#: modules/classes/class-instructor-role-payouts.php:509
+msgid " Error Type: %1$s - %2$s"
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:629
+msgid "Your instructor commission payout"
+msgstr ""
+
+#. translators: Blog name.
+#: modules/classes/class-instructor-role-payouts.php:645
+msgid "%s : Instructor Paypal Payout"
+msgstr ""
+
+#: modules/classes/class-instructor-role-payouts.php:873
+msgid "Oops, some error occurred, please try again after some time"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:207
+msgid "One or more of the introduction section setting fields have been left empty, please fix them before saving the changes"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:291
+msgid "-- Select Section Image --"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:292
+#: modules/classes/class-instructor-role-profile.php:334
+msgid "Education"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:293
+#: modules/classes/class-instructor-role-profile.php:341
+msgid "Achievements"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:294
+msgid "Custom Image"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:297
+msgid "-- Select Data Type --"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:298
+msgid "Paragraph"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:299
+msgid "List"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:302
+msgid "-- Select Icon --"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:303
+#: modules/templates/overview/ir-instructor-overview.template.php:27
+msgid "Students"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:304
+msgid "Trophy"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:305
+msgid "Dashicon"
+msgstr ""
+
+#: modules/classes/class-instructor-role-profile.php:405
+msgid "Warning"
+msgstr ""
+
+#. translators: Course.
+#: modules/classes/class-instructor-role-reports.php:64
+#: modules/classes/class-instructor-role-reports.php:66
+msgid "%s Reports"
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:218
+#: modules/classes/class-instructor-role-reports.php:366
+msgid "Status of"
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:372
+msgid " Mail sent successfully!!! "
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:373
+msgid " Mail not sent!!! "
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:692
+msgid "User ID"
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:693
+#: modules/classes/class-instructor-role-settings.php:448
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:40
+msgid "Name"
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:694
+#: modules/classes/class-instructor-role-settings.php:212
+#: modules/classes/class-instructor-role-settings.php:319
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:58
+msgid "Email"
+msgstr ""
+
+#. translators: Course.
+#: modules/classes/class-instructor-role-reports.php:696
+msgid "%s ID"
+msgstr ""
+
+#. translators: Course.
+#: modules/classes/class-instructor-role-reports.php:698
+msgid "%s Title"
+msgstr ""
+
+#. translators: Course.
+#: modules/classes/class-instructor-role-reports.php:699
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:49
+msgid "Total Steps"
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:700
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:52
+msgid "Completed Steps"
+msgstr ""
+
+#. translators: Course.
+#: modules/classes/class-instructor-role-reports.php:702
+msgid "%s Completed"
+msgstr ""
+
+#. translators: Course.
+#: modules/classes/class-instructor-role-reports.php:703
+msgid "Completion Date"
+msgstr ""
+
+#: modules/classes/class-instructor-role-reports.php:719
+msgid "No attempts"
+msgstr ""
+
+#. translators: Lesson and Current lesson count.
+#: modules/classes/class-instructor-role-reports.php:814
+msgid "%1$s Completed %2$d"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:129
+msgid "Product Updated by an Instructor"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:151
+msgid "Save Draft"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:435
+msgid "Instructor Pending approvals"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:456
+#: modules/classes/class-instructor-role-review.php:471
+msgid "No pending approvals"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:506
+#: modules/classes/class-instructor-role-review.php:536
+msgid "Approve Instructor Update"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:540
+msgid "Do you really want to approve instructor update?"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:543
+msgid "Please approve instructor updates to publish the post"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:570
+msgid "The current post status is auto-draft. Please change it to publish to approve instructor update"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:756
+msgid "Yes"
+msgstr ""
+
+#: modules/classes/class-instructor-role-review.php:807
+msgid "This product will be reviewed and published by the admin upon approval"
+msgstr ""
+
+#. translators:: Course.
+#: modules/classes/class-instructor-role-review.php:855
+msgid "This %s will be reviewed and published by the admin upon approval"
+msgstr ""
+
+#. translators:: Course.
+#: modules/classes/class-instructor-role-review.php:975
+msgid "%s is sent for review. It will be live once the admin reviews and publishes it"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:204
+#: modules/classes/class-instructor-role-settings.php:281
+msgid "Commission Report"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:208
+#: modules/classes/class-instructor-role-settings.php:282
+msgid "Export"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:216
+msgid "Settings"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:233
+msgid "Other Extensions"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:410
+msgid "Invalid percentage"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:426
+#: modules/classes/class-instructor-role-settings.php:711
+#: modules/classes/class-instructor-role-settings.php:1209
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:23
+msgid "Search"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:430
+#: modules/classes/class-instructor-role-settings.php:717
+#: modules/classes/class-instructor-role-settings.php:1212
+msgid "5 per page"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:433
+#: modules/classes/class-instructor-role-settings.php:722
+#: modules/classes/class-instructor-role-settings.php:1213
+msgid "10 per page"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:436
+#: modules/classes/class-instructor-role-settings.php:727
+#: modules/classes/class-instructor-role-settings.php:1214
+msgid "20 per page"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:439
+#: modules/classes/class-instructor-role-settings.php:732
+#: modules/classes/class-instructor-role-settings.php:1215
+msgid "50 per page"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:451
+msgid "User email"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:454
+msgid "Commission %"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:457
+#: modules/classes/class-instructor-role-settings.php:493
+msgid "Update"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:508
+#: modules/classes/class-instructor-role-settings.php:550
+#: modules/classes/class-instructor-role-settings.php:615
+msgid "No instructor found"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:558
+#: modules/classes/class-instructor-role-settings.php:634
+msgid "Select Instructor:"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:575
+#: modules/classes/class-instructor-role-settings.php:678
+msgid "Submit"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:638
+msgid "All"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:652
+msgid "Start Date:"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:663
+msgid "End Date:"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:746
+#: modules/classes/class-instructor-role-settings.php:919
+msgid "Export CSV"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:760
+#: modules/classes/class-instructor-role-settings.php:1224
+msgid "Order ID"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:771
+#: modules/classes/class-instructor-role-settings.php:1227
+msgid "Product / Course Name"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:776
+#: modules/classes/class-instructor-role-settings.php:1230
+msgid "Actual Price"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:781
+#: modules/classes/class-instructor-role-settings.php:1233
+msgid "Commission Price"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:787
+#: modules/classes/class-instructor-role-settings.php:1236
+msgid "Product Type"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:878
+#: modules/classes/class-instructor-role-settings.php:889
+#: modules/classes/class-instructor-role-settings.php:1289
+msgid "No record found!"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:970
+msgid "Order has been deleted!"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:977
+msgid "User not found!"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1013
+#: modules/classes/class-instructor-role-settings.php:1039
+msgid "No data found"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1101
+msgid "Instructor name"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1104
+msgid "Purchaser name"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1155
+#: modules/classes/class-instructor-role-settings.php:1312
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:31
+msgid "Paid Earnings"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1164
+#: modules/classes/class-instructor-role-settings.php:1325
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:39
+msgid "Unpaid Earnings"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1200
+msgid "Please Enter amount"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1201
+msgid "Please enter amount less than amount to be paid"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1202
+msgid "Record added successfully"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1331
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:80
+msgid "Pay"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1406
+msgid "Updated successfully"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1452
+msgid "E-mail Settings"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1465
+msgid "Product"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1471
+msgid "Download"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1481
+#: modules/classes/class-instructor-role-settings.php:1584
+#: modules/classes/class-instructor-role-settings.php:1903
+msgid "Shortcodes"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1488
+#: modules/classes/class-instructor-role-settings.php:1686
+#: modules/classes/class-instructor-role-settings.php:1788
+#: modules/classes/class-instructor-role-settings.php:1910
+#: modules/classes/class-instructor-role-settings.php:2011
+msgid "Instructor Profile Link"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1492
+#: modules/classes/class-instructor-role-settings.php:1590
+#: modules/classes/class-instructor-role-settings.php:1690
+#: modules/classes/class-instructor-role-settings.php:1796
+#: modules/classes/class-instructor-role-settings.php:1914
+#: modules/classes/class-instructor-role-settings.php:2015
+msgid "Instructor First Name"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1496
+#: modules/classes/class-instructor-role-settings.php:1594
+#: modules/classes/class-instructor-role-settings.php:1694
+#: modules/classes/class-instructor-role-settings.php:1804
+#: modules/classes/class-instructor-role-settings.php:1918
+#: modules/classes/class-instructor-role-settings.php:2019
+msgid "Instructor Last Name"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1500
+#: modules/classes/class-instructor-role-settings.php:1598
+#: modules/classes/class-instructor-role-settings.php:1698
+#: modules/classes/class-instructor-role-settings.php:1812
+#: modules/classes/class-instructor-role-settings.php:1922
+#: modules/classes/class-instructor-role-settings.php:2023
+msgid "Instructor Login ID"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1524
+msgid "Updated date and time of a content"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1533
+#: modules/classes/class-instructor-role-settings.php:1723
+#: modules/classes/class-instructor-role-settings.php:1947
+msgid "Admin E-Mail ID"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1583
+msgid "Course Update Notification To Instructor"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1618
+msgid "Permalink of a content"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1626
+msgid "Approved date and time of a content"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1679
+msgid "Product Update Notification To Admin"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1702
+#: modules/classes/class-instructor-role-settings.php:1820
+msgid "Product ID"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1706
+#: modules/classes/class-instructor-role-settings.php:1828
+msgid "Product Title"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1710
+#: modules/classes/class-instructor-role-settings.php:1836
+msgid "Permalink of a product"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1714
+#: modules/classes/class-instructor-role-settings.php:1844
+msgid "Updated date and time of a product"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1733
+msgid "Comma separated E-mail IDs to send product update notification."
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1752
+#: modules/classes/class-instructor-role-settings.php:1870
+msgid "Product Update E-Mail Content"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1778
+msgid "Product Update Notification To Instructor"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1902
+msgid "Download Update Notification To Admin"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1926
+#: modules/classes/class-instructor-role-settings.php:2027
+msgid "Download ID"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1930
+#: modules/classes/class-instructor-role-settings.php:2031
+msgid "Download Title"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1934
+#: modules/classes/class-instructor-role-settings.php:2035
+msgid "Permalink of a download"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1938
+#: modules/classes/class-instructor-role-settings.php:2039
+msgid "Updated date and time of a download"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1957
+msgid "Comma separated E-mail IDs to send download update notification."
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:1977
+#: modules/classes/class-instructor-role-settings.php:2063
+msgid "Download Update E-Mail Content"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2002
+msgid "Download Update Notification To Instructor"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2089
+#: modules/classes/class-instructor-role-settings.php:2579
+msgid "Save Changes"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2308
+#: modules/classes/class-instructor-role-settings.php:2492
+msgid "Instructor Email"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2316
+msgid "Email Subject:"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2325
+msgid "Email Message:"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2340
+msgid "ALLOWED VARIABLES"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2385
+msgid "Instructor Settings"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2434
+msgid "Review Download"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2443
+msgid "Enable admin approval for EDD product updates."
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2455
+msgid "Review Product"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2464
+msgid "Enable admin approval for WooCommerce product updates."
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2509
+msgid "Instructor Commission"
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2518
+msgid "Disable Instructor commission feature."
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2535
+msgid "Enable admin customizer for dashboard."
+msgstr ""
+
+#: modules/classes/class-instructor-role-settings.php:2557
+msgid "LearnDash Category"
+msgstr ""
+
+#. translators: Course Title
+#: modules/templates/course-report/ir-course-reports-chart.template.php:47
+msgid "Send message to all %s users"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-chart.template.php:51
+msgid "Subject:"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-chart.template.php:59
+msgid "Body:"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-chart.template.php:65
+msgid "Send Email"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-page.template.php:42
+msgid "No reports to display"
+msgstr ""
+
+#. translators: Student email.
+#: modules/templates/course-report/ir-course-reports-user-record-single.template.php:30
+msgid "E-Mail to %s"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-record-single.template.php:32
+msgid "E-Mail"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:18
+msgid "User Information"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:24
+msgid "Show"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:32
+msgid "Records"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:43
+msgid "E-Mail ID"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:46
+msgid "Progress %"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:55
+msgid "Completed On"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:101
+msgid "Send E-Mail To Individual Member"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:113
+msgid "To"
+msgstr ""
+
+#: modules/templates/course-report/ir-course-reports-user-records.template.php:141
+msgid "Send E-Mail"
+msgstr ""
+
+#: modules/templates/overview/ir-instructor-overview.template.php:14
+msgid "Instructor Overview"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:13
+msgid "Submissions"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:19
+#: modules/templates/profile/settings/ir-profile-settings.template.php:105
+msgid "Title"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:21
+msgid "Lesson"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:22
+msgid "Date"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:23
+msgid "Points"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:24
+#: modules/templates/payouts/ir-paypal-payout-transaction-details.template.php:30
+#: modules/templates/payouts/ir-paypal-payouts-transactions.template.php:22
+msgid "Status"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:25
+#: modules/templates/payouts/ir-paypal-payouts-transactions.template.php:28
+msgid "Type"
+msgstr ""
+
+#: modules/templates/overview/ir-submission-reports.template.php:57
+msgid "No submissions recorded yet"
+msgstr ""
+
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:23
+msgid "Transaction"
+msgstr ""
+
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:47
+msgid "Enter amount"
+msgstr ""
+
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:55
+msgid "Payout Method"
+msgstr ""
+
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:60
+msgid "Manual"
+msgstr ""
+
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:64
+msgid "Paypal Payout"
+msgstr ""
+
+#: modules/templates/payouts/ir-commission-payout-payment.template.php:70
+msgid "Payout Email Address"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payout-transaction-details.template.php:22
+#: modules/templates/payouts/ir-paypal-payouts-transactions.template.php:25
+msgid "Amount"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payout-transaction-details.template.php:38
+msgid "Time Created"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payout-transaction-details.template.php:46
+msgid "Transaction Status"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payout-transaction-details.template.php:55
+msgid "Error"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payout-transaction-details.template.php:63
+msgid "Description"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:22
+msgid "Paypal Payout Settings"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:33
+msgid "Check this box if you would like to make test transactions using Paypal Payouts."
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:40
+msgid "Client ID"
+msgstr ""
+
+#. translators: link.
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:47
+msgid "Enter your PayPal Payout Application Client ID. Read more about creating Apps %s"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:54
+msgid "Client Secret"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:59
+msgid "Enter your PayPal Payout Application Client Secret."
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:67
+msgid "Sandbox Client ID"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:72
+msgid "Enter your PayPal Payout Application Sandbox Client ID."
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:78
+msgid "Sandbox Client Secret"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:83
+msgid "Enter your PayPal Payout Application Sandbox Client Secret."
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:90
+msgid "Currency"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:94
+msgid "Select a currency"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:102
+msgid "Select the currency you wish to make the payouts in."
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:107
+msgid "Payout Note"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-admin-settings.template.php:111
+msgid "Note to recipient (required for Venmo accounts, optional for PayPal accounts)."
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-settings.template.php:15
+msgid "Instructor Paypal E-mail"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-settings.template.php:22
+msgid "Paypal Payouts E-mail"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-transactions.template.php:14
+msgid "Paypal Payouts Transaction History"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-transactions.template.php:19
+msgid "Batch ID"
+msgstr ""
+
+#: modules/templates/payouts/ir-paypal-payouts-transactions.template.php:36
+msgid "No payouts recorded yet"
+msgstr ""
+
+#: modules/templates/profile/introduction-sections/ir-profile-introduction-section.template.php:16
+msgid "Introduction Section Details"
+msgstr ""
+
+#: modules/templates/profile/ir-instructor-profile.template.php:124
+msgid "Enrolled Students"
+msgstr ""
+
+#: modules/templates/profile/ir-instructor-profile.template.php:140
+msgid "CONNECT WITH ME"
+msgstr ""
+
+#: modules/templates/profile/ir-instructor-profile.template.php:167
+#: modules/templates/profile/ir-instructor-profile.template.php:186
+msgid "INTRODUCTION"
+msgstr ""
+
+#: modules/templates/profile/ir-instructor-profile.template.php:180
+#: modules/templates/profile/ir-instructor-profile.template.php:209
+msgid "RATINGS & REVIEWS"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-extra-fields.template.php:14
+msgid "Instructor Profile Additional Data"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-extra-fields.template.php:21
+msgid "FaceBook"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-extra-fields.template.php:31
+msgid "Twitter"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-extra-fields.template.php:41
+msgid "Youtube"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:18
+msgid "Profile Settings"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:26
+msgid "Profile Links"
+msgstr ""
+
+#. translators: Course placeholder.
+#: modules/templates/profile/settings/ir-profile-settings.template.php:36
+msgid "Instructor profile links on %s archive and single pages"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:47
+msgid "Introduction Section"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:52
+msgid "Configure the details to be displayed in the introduction section."
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:59
+msgid "Section"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:62
+msgid "Actions"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:75
+msgid "Edit"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:79
+msgid "Delete"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:89
+#: modules/templates/profile/settings/ir-profile-settings.template.php:180
+msgid "Add"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:98
+msgid "Add/Edit Section"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:113
+msgid "Image"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:126
+msgid "Select Image"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:130
+msgid "View Image"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:138
+msgid "Meta Key"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:145
+msgid "Click here to learn more"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:151
+msgid "Data Type"
+msgstr ""
+
+#: modules/templates/profile/settings/ir-profile-settings.template.php:163
+msgid "Icon"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:12
+msgid "Additional Settings"
+msgstr ""
+
+#. translators: course, topic and/or quiz placeholders.
+#: modules/templates/settings/ir-additional-settings.template.php:19
+msgid "Enable or disable the following sections in the %1$s, %2$s and %3$s settings on the Instructor Dashboard"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:32
+msgid "WP Categories"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:42
+msgid "LearnDash Categories"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:51
+msgid "Permalinks"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:60
+msgid "Header"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:70
+msgid "Layout "
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:80
+#: modules/templates/settings/ir-additional-settings.template.php:90
+msgid "Cover Photo"
+msgstr ""
+
+#. translators: Course and Group placeholders.
+#: modules/templates/settings/ir-additional-settings.template.php:104
+msgid "%1$s and %2$s Pricing Options"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:115
+msgid "Open"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:123
+msgid "Free"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:131
+msgid "Buy Now"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:139
+msgid "Recurring"
+msgstr ""
+
+#: modules/templates/settings/ir-additional-settings.template.php:147
+msgid "Closed"
+msgstr ""

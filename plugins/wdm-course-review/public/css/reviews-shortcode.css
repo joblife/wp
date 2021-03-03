@@ -1,0 +1,489 @@
+.hide {
+    display: none;
+}
+
+.filter-options .select {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+}
+
+.filter-options {
+	margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-options select.select-text {
+    position: relative;
+    font-family: inherit;
+    background-color: transparent;
+    padding: 10px 10px 10px 0;
+    font-size: 18px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0, 0.12);
+    appearance: none;
+    -webkit-appearance:none;
+    width: 100%;
+}
+
+.filter-options select.select-text:focus {
+    outline: none;
+    border-bottom: 1px solid rgba(0,0,0, 0);
+}
+
+.filter-options .select:after {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+ /* Styling the down arrow */
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgba(0, 0, 0, 0.12);
+    pointer-events: none;
+}
+
+.filter-options label.select-label {
+    color: rgba(0,0,0, 0.26);
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 10px;
+    transition: 0.2s ease all;
+    color: #2F80ED;
+    top: -20px;
+    transition: 0.2s ease all;
+    font-size: 14px;
+}
+
+.filter-options .select-text:focus ~ .select-label, .filter-options .select-text:valid ~ .select-label {
+	color: #2F80ED;
+	top: -20px;
+	transition: 0.2s ease all;
+	font-size: 14px;
+}
+
+.filter-options span.select-bar {
+    position: relative;
+    display: block;
+}
+
+.filter-options span.select-bar:before {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #2F80ED;
+    transition: 0.2s ease all;
+    left: 50%;
+}
+
+.filter-options span.select-bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #2F80ED;
+    transition: 0.2s ease all;
+    right: 50%;
+}
+.filter-options .select-text:focus ~ .select-bar:before, .filter-options .select-text:focus ~ .select-bar:after {
+	width: 50%;
+}
+
+.filter-options span.select-highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+/*BuddBoss theme patch*/
+.filter-options select {
+    background: none;
+}
+
+.hide.review-helpful-icon-wrap {
+    display: none;
+}
+
+#course-reviews-section {
+    padding: 15px;
+}
+
+#course-reviews-section h3 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.review-top-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.course-reviews-section.not-allowed .review-top-section {
+    justify-content: space-around;
+}
+
+.wdm_course_rating_reviews {
+    padding: 35px 0 35px;
+}
+
+.review-top-section .review-top-col:nth-child(2) {
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    min-width: 364px;
+    padding: 25px 0;
+}
+
+.review-top-section .review-top-col:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    margin: 0 10px;
+}
+
+.course-reviews-section.not-allowed .review-top-col {
+    width: 50%;
+    border-right: none;
+}
+
+.reviews-total-wrap {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.review-stars-top {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-avg {
+    color: #666;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.reviews-avg-label {
+    color: #999;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.review-split-title, .reviews-avg, .reviews-total {
+    font-weight: 700;
+}
+
+.review-split-wrap {
+    max-width: 252px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.review-split-title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 17px;
+}
+
+.review-split-percent {
+    position: relative;
+    width: 200px;
+    height: 8px;
+}
+
+.review-split-percent-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.review-split-percent-inner-1 {
+    background-color: #ebebeb;
+}
+
+.review-split-percent-inner-2 {
+    background-color: #ffa03a;
+}
+
+.review-split-count {
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 10px;
+    color: #a73232;
+}
+
+div.review-top-desc {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.filter-options {
+    text-align: center;
+}
+
+.content-review-details {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+}
+
+.comment-review-inner {
+    padding-bottom: 20px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.review-head {
+    display: flex;
+    align-items: center;
+}
+
+.review-head .rating-container {
+    margin-right: 8px;
+}
+
+.review-author-info {
+    padding-right: 19px;
+    align-items: center;
+}
+
+.review-footer, .review-author-info,.review-head {
+    display: flex;
+}
+
+span.review-author-img-wrap {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ddd;
+}
+
+
+.review-author-img-wrap .avatar {
+    display: inline-block;
+    border-radius: 100%;
+    vertical-align: middle;
+    float: none;
+    height: 100%;
+    width: 100%;
+}
+
+strong.review-author-name {
+    font-size: 12px;
+    line-height: 17px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+span.wdm-review-age {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.review-body {
+    padding: 6px 0 7px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+}
+
+strong.review-title {
+    margin-bottom: 4px;
+    color: #333;
+    display: block;
+}
+
+p.review-desc {
+    line-height: 22px;
+    margin: 0;
+    word-break: normal;
+}
+
+.review-footer {
+    flex-wrap: wrap;
+}
+
+.review-meta-wrap {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.review-helpful-wrap {
+    line-height: 1;
+}
+
+span.review-helpful-text {
+    line-height: 20px;
+    padding: 0 8px 0 19px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+span.review-helpful-icon-wrap {
+    vertical-align: text-bottom;
+}
+
+span.review-helpful-count {
+    border-left: 1px solid #d1d1d1;
+    line-height: 20px;
+    padding-left: 19px;
+    margin-left: 23px;
+    display: inline-block;
+    color: #666;
+}
+
+span.review-helpful-count.is-not-voted {
+    margin: 0;
+    padding: 0;
+}
+
+.course-reviews-section a.reply_to_review_link {
+    font-size: 18px;
+    margin-left: 15px;
+    padding-left: 19px;
+    border-left: 1px solid #d1d1d1;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.wdm-review-replies {
+    padding-bottom: 20px;
+    margin-bottom: 33px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.more-reply-wrap {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1;
+    text-align: center;
+}
+
+.wdm-reply-comments a.comment-toggle-alt {
+    text-decoration: none;
+}
+
+.login-to-enroll {
+    text-align: center;
+}
+
+.loader {
+    text-align: center;
+}
+
+#course-reviews-section a.load_more_reviews {
+    text-decoration: none;
+    margin-top: 23px;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.write-review-wrap {
+    display: none;
+}
+
+textarea {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+    .review-top-section {
+        display: block;
+    }
+    .review-top-col {
+        display: flex;
+        justify-content: space-between;
+    }
+    .review-top-section .review-top-col:nth-child(1) {
+        align-items: center;
+        max-width: 210px;
+        margin: 0 auto;
+    }
+    .review-top-section .review-top-col:nth-child(2) {
+        border-top: 1px solid #eaeaea;
+        border-bottom: 1px solid #eaeaea;
+        flex-wrap: wrap;
+        flex-flow: column;
+        min-width: auto;
+        display: block;
+        padding: 25px 12px;
+        margin: 25px auto;
+        width: 80%;
+        border-right: 1px solid #eaeaea;
+    }
+    .review-top-section .review-top-col:nth-child(3) {
+        display:none;
+    }
+    .review-top-star-wrap {
+        border-right: 1px solid #eaeaea;
+        padding: 4px 24px 4px 0;
+    }
+    .reviews-total-wrap {
+            color: #a73232;
+         font-size: 16px;
+         line-height: 20px;
+         padding-left: 27px;
+    }
+    .reviews-avg {
+            color: #444;
+           font-size: 32px;
+           line-height: 43px;
+    }
+    .reviews-avg-label {
+        color: #6c6c6c;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .review-split-wrap {
+        min-width: 60px;
+        margin-bottom: 5px;
+    }
+    .filter-options .select {
+        margin-bottom: 30px;
+    }
+    .write-review-wrap {
+        background-color: #f7f7f7;
+        padding: 22px 0;
+        margin: 0 -20px;
+        display: block;
+        text-align: center;
+    }
+    .write-review-wrap .review-top-desc {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

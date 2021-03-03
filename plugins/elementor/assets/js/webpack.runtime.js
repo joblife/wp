@@ -1,4 +1,4 @@
-/*! elementor - v3.1.2 - 02-03-2021 */
+/*! elementor - v3.1.1 - 31-01-2021 */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({});
@@ -90,7 +90,7 @@
 /******/ 			if (chunkId === "progress") return "" + chunkId + ".fdb2dcfacfca36a9033a.bundle.js";
 /******/ 			if (chunkId === "tabs") return "tabs.e9db15b9aa8a58bcf375.bundle.js";
 /******/ 			if (chunkId === "toggle") return "" + chunkId + ".f62080504158ea96ac4c.bundle.js";
-/******/ 			if (chunkId === "video") return "" + chunkId + ".4867cd778fc28aa3d2f9.bundle.js";
+/******/ 			if (chunkId === "video") return "" + chunkId + ".dce2e6c0483ecadec74b.bundle.js";
 /******/ 			if (chunkId === "image-carousel") return "" + chunkId + ".1b452908acbb55e3c0c3.bundle.js";
 /******/ 			if (chunkId === "text-editor") return "" + chunkId + ".00896c8bf19481643415.bundle.js";
 /******/ 			// return url for filenames based on template

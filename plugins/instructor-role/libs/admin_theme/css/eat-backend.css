@@ -1,0 +1,836 @@
+/** 
+* Everest Admin Theme
+* Version 1.0.1
+*/
+
+.eat-body-class-wrap .clearfix:before,
+.eat-body-class-wrap .clearfix:after {
+    clear: both;
+    display: table;
+    content: '';
+    flex-basis: 0;
+    order: 1;
+}
+.eat-body-class-wrap  #adminmenu *{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.eat-body-class-wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.eat-body-class-wrap img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+.eat-no-margin {
+    margin-bottom: 0 ! important;
+}
+.eat-image-placeholder{
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.eat-admin-main-wrapper{
+    margin-left: 0;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.eat-admin-main-wrapper .eat-header-wrapper {
+    width: 100%;
+    background: #272B33;
+    /*padding: 30px; */   
+}
+.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo,
+.eat-admin-main-wrapper .eat-header-wrapper .eat-header-icons {
+    display: inline-block;
+    width: 50%;
+    margin: 0 -2px;
+    vertical-align: middle;
+}
+.eat-admin-main-wrapper .eat-header-wrapper .eat-header-icons {
+    text-align: right;
+    color: #29c7ca;
+}
+.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo span.eat-headerlogo {
+    color: #29c7ca;
+    font-size: 34px;
+    line-height: 1.5;
+    width: 100%;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header {
+    float: left;
+    width: 25%;
+    background: #272b33;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header.is-affixed .inner-wrapper-sticky {
+    top: 30px !important; 
+    background: #272b33;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li {
+    padding: 22px 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid #333535;
+    position: relative;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li:hover,
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li.eat-active {
+    background: rgba(0,0,0,0.3);
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li:first-child {
+    border-top: 1px solid #333535;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #29c7ca;
+    width: 5px;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    right: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7.5px 8px 7.5px 0;
+    border-color: transparent #29c7ca transparent transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li.eat-active:before,
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li:hover:before,
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li.eat-active:after,
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-header ul.eat-tabs-wrap li:hover:after {
+    opacity: 1;
+    visibility: visible;
+} 
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-content-wrap {
+    float: right;
+    width: 75%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;  
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-tabs-content-wrap * {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;  
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit {
+    margin-top: 100px;
+    width: 100%;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button,
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-reset-button {
+    display: inline-block;
+    width: 50%;
+    margin: 0px;
+    float: left;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background: rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    border: 0;
+    height: 60px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    font-size: 15px;
+    margin-bottom: -2px;
+}
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-button:hover,
+.eat-admin-main-wrapper .eat-display-settings-wrap .eat-settings-submit input.eat-reset-button:hover {
+    background: #29c7ca;
+    color: #000;
+}
+/*=====================================
+tab content css
+=====================================*/
+.eat-admin-main-wrapper .eat-tabs-content-wrap {
+    background: #fff;
+    padding: 30px;
+    border-top: 1px solid #333535;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-tab-content-header-title {
+    font-size: 28px;
+    /* font-weight: 500; */
+    margin-bottom: 50px;
+    position: relative;
+    padding-bottom: 10px;
+    font-family: Rubik;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-tab-content-header-title:before {
+    content: '';
+    position: absolute;
+    background: #29c7ca;
+    height: 3px;
+    width: 50px;
+    bottom: -16px;
+    left: 0;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap {
+    margin-bottom: 30px;
+    float: left;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-input-field-wrap {
+    float: left;
+    max-width: 400px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap {
+    width: 100%;
+    float: left;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .input-info {
+    margin-top: 20px;
+    font-style: italic;
+    color: #f00;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap > label,
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .eat-font-size > label,
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .eat-font-color .eat-input-field-wrap > label,
+.eat-input-field-wrap > label {
+    float: left;
+    width:290px;
+    vertical-align: top;
+    margin-right:25px;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 400;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.child-wrap > label{
+    padding-left: 20px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.parent-wrap > label{
+    width: 310px;
+    padding: 10px;
+    padding-left: 25px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.parent-wrap,
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.child-wrap{
+    position: relative;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.parent-wrap{
+    background: #fafafa;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.parent-wrap .eat-input-field-wrap{
+    margin-top: 6px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.parent-wrap:after{
+    content: "";
+    position: absolute;
+    font-size: 16px;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #333;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap.child-wrap:after{
+    content: "\f105";
+    font-family: fontawesome;
+    position: absolute;
+    font-size: 16px;
+    left: 5px;
+    top: 0;
+}
+/*.eat-options-wrap{
+    position: relative;
+    padding-left:250px;
+}
+.eat-options-wrap label{
+    position: absolute;
+    left:0;
+    width: 
+}*/
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .eat-font-color {
+    margin-top: 25px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap select,
+.eat-admin-main-wrapper .eat-tabs-content-wrap input {
+    width: 250px;
+    padding: 10px;
+    outline: none;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap input[type="number"] {
+    height: 40px;
+    width: 146px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap input[type=checkbox] {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    border: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: auto;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox] + label:before,
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox] + label:after {
+    content: '';
+    position: absolute;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox] + label {
+    padding: 2px;
+    width: 50px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    float: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox] + label:before {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #dddddd;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox] + label:after {
+    top: 3px;
+    left: 3px;
+    bottom: 4px;
+    width: 20px;
+    height: 19px;
+    background-color: #ffffff;
+    -webkit-transition: margin 0.4s, background 0.4s;
+    -moz-transition: margin 0.4s, background 0.4s;
+    -o-transition: margin 0.4s, background 0.4s;
+    transition: margin 0.4s, background 0.4s;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox]:checked + label:before, 
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox]:checked + label:before {
+    background-color: #29c7ca;
+    margin: 0;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox]:checked + label:after, 
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap input[type=checkbox]:checked + label:after {
+    margin-left: 24px;
+}
+/*============================
+select option
+============================*/
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbHolder,
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions {
+    background: transparent;
+    border: 1px solid #29c7ca;
+    outline: none;
+    width: 300px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbHolder {
+    height: 40px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions {
+    background: #29c7ca;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbSelector:link, 
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbSelector:visited, 
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbSelector:hover {
+    width: 100%;
+    height: 38px;
+    line-height: 40px;
+    color: #29c7ca;
+    font-size: 14px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions li {
+    padding: 0;
+    margin-bottom: 0;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions li .sbGroup {
+    color: #fff;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    padding: 13px 10px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions li a {
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbOptions li:last-child a {
+    border-bottom: 0; 
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbToggle {
+    height: 100%;
+    text-align: center;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .sbToggle:before {
+    position: absolute;
+    content: '\f107';
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: #29c7ca;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    left: 12px;
+}
+/*=========================================
+button
+=========================================*/
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .eat-button {
+    width: auto;
+    padding: 10px 15px;
+    background: #29c7ca;
+    box-shadow: none;
+    text-shadow: none;
+    border: 1px solid #29c7ca;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .eat-button:hover {
+    background: transparent;
+    color: #29c7ca;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .dashicons {
+    height: 40px !important;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: Rubik, dashicons;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .dashicons:before {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    padding-right: 5px;
+}
+.eat-style-label {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+.eat-style-label:before {
+    content: '';
+    position: absolute;
+    background: #29c7ca;
+    height: 3px;
+    width: 50px;
+    bottom: 0;
+    left: 0;
+}
+.eat-substyle-label{
+    font-size:16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    position: relative;
+    width: 100%; 
+    display: block;
+    clear: both;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .wp-color-result {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    height: 38px;
+    box-shadow: none;
+    margin: 0;
+    position: relative;
+    border: 0;
+    box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -ms-box-shadow: 0 0 3px #ccc;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .wp-color-result span {
+    height: 100%;
+    border-radius: 0 !important;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .wp-color-result:after {
+    border-radius: 0;
+    height: 38px;
+    border: none;
+    line-height: 35px;
+    padding: 0 15px;
+    font-size: 13px;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .wp-picker-active .wp-color-result:after {
+    padding: 0;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .wp-picker-container input[type=text].wp-color-picker {
+    width: 70px !important;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .wp-picker-container .wp-picker-input-wrap input.wp-picker-clear {
+    width: auto;
+    height: 38px;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 25px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.eat-admin-main-wrapper .eat-tabs-content-wrap .eat-options-wrap .wp-picker-container .wp-picker-input-wrap input.wp-picker-clear:hover {
+    background: #29c7ca;
+    border-color: #29c7ca;
+    color: #fff;
+}
+/*========================================
+menu manager
+========================================*/
+.eat-admin-main-wrapper .eat-menu-manager-wrap {
+    border: 1px solid #cacaca;
+    padding: 20px;
+}
+.eat-admin-main-wrapper .eat-menu-wrap {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    width: 100%;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap {
+    margin-bottom: 15px;
+    background: #272B33;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap.eat-disabled,
+.eat-admin-main-wrapper .eat-submenu-manager-item-wrap.eat-disabled {
+    opacity: 0.4;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-header-options {
+    background: #29C7CA;
+    color: #fff;
+    font-size: 16px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-header-options .eat-menu-header-left,
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap .eat-submenu-name {
+    float: left;
+    width: 100%;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap .eat-submenu-name {
+    padding: 8px 0;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-header-options .eat-menu-edits-actions,
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap .eat-submenu-edits-actions {
+    position: absolute;
+    right: 30px;
+    top: -5px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap .eat-submenu-edits-actions{
+    top: -8px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-icon-name {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 16px;
+    background: #272B33;
+    margin-right: 10px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-icon-name i:before{
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-name{
+    position: relative;
+    top: -5px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits {
+    margin-left: 40px;
+    background: white;
+    display: block;
+    padding: 30px 40px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits div,
+.eat-admin-main-wrapper .eat-submenu-edits div {
+    margin-bottom: 15px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits div:last-child,
+.eat-admin-main-wrapper .eat-submenu-edits div:last-child {
+    margin-bottom: 0;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-original-name label,
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-rename label,
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-icon label,
+.eat-admin-main-wrapper .eat-submenu-edits .eat-submenu-original-name label,
+.eat-admin-main-wrapper .eat-submenu-edits .eat-submenu-rename label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-original-name input[type="text"],
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-rename input[type="text"],
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-edits .eat-submenu-original-name input[type="text"],
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-edits .eat-submenu-rename input[type="text"] {
+    width: 300px;
+    padding: 9px 10px 6px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-icon .eat-button {
+    font-family: Roboto, dashicons, FontAwesome;
+    font-size: 13px;
+    width: 300px;
+    text-align: left;
+    display: inline-block;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-icon .eat-button:before {
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 45px;
+    padding: 7px 7px 1px;
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits .eat-menu-icon .eat-button:hover:before {
+    background: #29C7CA;
+    color: #fff;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap {
+    margin-left: 40px;
+    display: block;
+    padding: 20px 35px 30px;
+    background: #fff;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap .eat-submenu-item {
+    border: 1px solid #29C7CA;
+    margin-bottom: 15px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap .eat-submenu-edits {
+    padding: 15px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-header-options.eat-submenu-header-options {
+    padding: 0px 15px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-header-options.eat-submenu-header-options:last-child {
+    margin-bottom: 0;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-header-options .eat-menu-edits-actions span,
+.eat-admin-main-wrapper .eat-submenu-wrap .eat-submenu-edits-actions span {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    top: 0;
+    cursor: pointer;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits-actions span:before,
+.eat-admin-main-wrapper .eat-submenu-wrap .eat-submenu-edits-actions span:before {
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #fff;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits-actions span.eat-menu-submenu-hide-show:before,
+.eat-admin-main-wrapper .eat-submenu-wrap .eat-submenu-edits-actions span.eat-menu-submenu-hide-show:before {
+    content: '\f06e';
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap.eat-disabled .eat-menu-edits-actions span.eat-menu-submenu-hide-show:before,
+.eat-admin-main-wrapper .eat-submenu-item.eat-disabled .eat-submenu-edits-actions span.eat-menu-submenu-hide-show:before {
+    content: '\f070';
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits-actions span.eat-menu-submenu-move:before,
+.eat-admin-main-wrapper .eat-submenu-wrap .eat-submenu-edits-actions span.eat-menu-submenu-move:before {
+    content: '\f0b2';
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits-actions span.eat-menu-submenu-move:hover,
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits-actions span.eat-menu-submenu-move:focus{
+    cursor: grab;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-header-options {
+    position: relative;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-header-options:before {
+    position: absolute;
+    content: '\f0d7';
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #fff;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap.eat-menu-item.eat-expand .eat-menu-header-options:before,
+.eat-admin-main-wrapper .eat-submenu-item.eat-expand .eat-submenu-header-options:before {
+    content: '\f0d8';
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-header-options.eat-submenu-header-options {
+    padding-right: 30px;
+}
+.eat-menu-manager-wrap .eat-submit-button button {
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    background: #272B33;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    position: relative;
+}
+.eat-menu-manager-wrap .eat-submit-button button{
+    padding: 15px 20px 15px 40px;
+}
+.eat-menu-manager-wrap .eat-submit-button button:after{
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #fff;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    margin-left: 20px;
+}
+.eat-menu-manager-wrap .eat-submit-button button.eat-ajax-menu-submenu-submit-button:after{
+    content: '\f021';
+}
+.eat-menu-manager-wrap .eat-submit-button button.eat-ajax-menu-submenu-reset-button:after{
+    content: '\f071';
+}
+.eat-menu-manager-wrap .eat-submit-button button:hover {
+    background: #29C7CA;
+}
+.eat-menu-manager-wrap .eat-submit-button {
+    position: relative;
+}
+.eat-menu-manager-wrap .eat-submit-button .eat-ajax-message {
+    width: 45px;
+    position: absolute;
+    left: 62%;
+    top: 3px;
+}
+
+.wp-picker-container, .wp-picker-container:active {
+    display: inline-block;
+    outline: 0;
+}
+
+/*===============================
+collapse css
+===============================*/
+.eat-body-class-wrap.folded #adminmenuback, 
+.eat-body-class-wrap.folded #adminmenuwrap, 
+.eat-body-class-wrap.folded #adminmenu {
+    width: 50px;
+}
+
+/* overlay css for admin dashboard */
+ #wpwrap .eat-common-overlay {
+    /*background: rgba(0,0,0,0.5);*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.wp-color-result-text{
+    padding: 8px 6px;
+    margin-left: 30px;
+}
+button.wp-color-result{
+    padding: 0px !important;
+}
+/*..............................................new css.............................................................*/
+    .eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-icon-name i:before{
+    margin-top: 10px;
+    
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-name{
+    
+    top: 10px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-header-options:before {
+    margin-top: 3px;
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-header-options .eat-menu-edits-actions,
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap .eat-submenu-edits-actions {
+    
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-menu-edits {
+    margin-left: 72px;
+    }
+.eat-admin-main-wrapper .eat-menu-manager-item-wrap .eat-submenu-wrap {
+    margin-left: 72px;
+    }
+.eat-body-class-wrap #wpcontent {    
+    /* margin-right: 20px; */
+}
+.eat-admin-main-wrapper .eat-header-wrapper {
+    padding: 30px 0px 30px 0px;
+}
+.eat-admin-main-wrapper .eat-header-wrapper .eat-header-icons{
+    float: right;
+}
+.eat-admin-main-wrapper .eat-header-wrapper .eat-headerlogo, .eat-admin-main-wrapper .eat-header-wrapper .eat-header-icons{
+    margin: 0;
+}
+.eat-headerlogo img{
+    margin-left: 30px;
+}
+.eat-header-icons p {
+    margin-right: 20px;
+}

@@ -1,0 +1,20 @@
+.row-actions span.wdm_rrf_reject a {
+	color: #a00;
+}
+textarea#wdm_review_reject_reason {
+	width: 100%;
+}
+.row-actions span.wdm_rrf_reject a:hover{
+    color: red;
+    border: none;
+}
+#the-list .type-wdm_course_review.status-rejected {
+    background-color: #F9D4D4;
+    border: none;
+}
+.widefat td, .widefat th{
+    border-bottom: 1px solid #cecece;
+}
+.wdm_hide_link {
+    display: none;
+}
